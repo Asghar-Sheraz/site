@@ -1,0 +1,48 @@
+#top-container {
+	background:#3da1ff;
+	min-height:800px;
+	padding:230px 0;
+}
+
+#ladybug {
+	width:500px;
+	height:281px;
+	margin: 2% auto;
+	background: url(../../../../../images/sequence_1.jpg) left center;
+	animation-duration:10s;
+}
+
+#ladybug{
+	animation-name:in;
+	-webkit-animation: in .6s steps(18);
+	animation: in .6s steps(18) none;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#ladybug:hover{
+	animation-name:out;
+	-webkit-animation-name:out;
+	-webkit-animation-fill-mode: backwards;
+	}
+
+@keyframes in {
+	0% { background-position: 0; }
+	100% { background-position: 9000px; }
+}
+
+@-webkit-keyframes in {
+	0% { background-position: 0; }
+	100% { background-position: 9000px; }
+}
+
+@keyframes out {
+	0% { background-position: 9000px; }
+	100% { background-position: 0; }
+}
+
+@-webkit-keyframes out {
+	0% { background-position: 9000px; }
+	100% { background-position:0 ; }
+}
+

@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+.mainContainer{
+	background:#fff;
+	width:100%;
+	height:auto; /*4290px;*/
+	background-repeat:repeat;
+	padding:68px 0 0 0 ;
+	float:left;
+}
+
+	.vidContainer{
+		margin: 0 auto;
+		width:1125px;
+		height:auto;
+		-webkit-transition: width 0.6s ease-in-out;
+		-moz-transition: width 0.6s ease-in-out;
+		-o-transition: width 0.6s ease-in-out;
+		transition: width 0.6s ease-in-out;
+		}
+		@media (max-width: 1200px) {		
+			.vidContainer{
+				width:100%;
+				}
+			}	
+		.vidContainer .videoHolder iframe{
+			width:50%;
+			height:auto;
+			padding: 0 2% 0 2%; 
+			}
+		.vidContainer .videoHolder video{
+			width:96%;
+			height:auto;
+			float:left;
+			margin: 0 0 0 2%; 
+			}
+			.vidContainer .videoHolder h3{
+				background-color:#fff;
+				font-size:14px;
+				margin-left:2%;
+				width:45%;
+				float:left;
+				}
+			.vidContainer .videoHolder .vimeoLink{
+				font-size: 14px;
+				margin-right: 2%;
+				width: auto;
+				float: right;
+				color: #fff;
+				height: 35px;
+				line-height: 34px;
+				margin-top: 23px;
+				padding: 0 5% 0 1%;
+				background-image: url(../images/sharedImg/vimeoIcon_white.png);
+				background-color: #000000;
+				background-repeat: no-repeat;
+				background-size: auto 70%;
+				background-position: right;
+				font-size: 10px;
+				}
+			.vidContainer .videoHolder .vimeoLink:hover{
+				text-decoration: none;
+				opacity:0.5;
+				}
+			.vidContainer .videoHolder p{
+				width:96.4%;
+				height:auto;
+				background-color:#fff;
+				float:left;
+				margin-left:2%;
+				padding-bottom: 40px;
+				border-bottom: 1px solid #ccc
+				}
+			.vidContainer .videoHolder .headerBlue{
+				color: #319ae9;
+				}
+			.vidContainer .videoHolder .flashDownloader{
+				float: left;
+				width: 96%;
+				margin: 3px 2% 0 2%;
+				border-bottom: 1px solid #ccc;
+				padding: 0 0 10px 0;
+				}
+
+				.vidContainer .videoHolder .flashDownloader li{
+					float: left;
+					padding: 0;
+					width: 9%;
+					margin: 0 1% 0 0; 
+					background:url("../images/sharedImg/download.png") #000000 center center no-repeat;
+					background-size: 85% ;
+					}
+					.vidContainer .videoHolder .flashDownloader li a{
+						width: 100%;
+						float: left;
+						margin: 0;
+						padding: 0;
+						opacity: 1.0;
+						}		
+					.vidContainer .videoHolder .flashDownloader li a:hover{
+						opacity: 0.5;
+						}		
+						.vidContainer .videoHolder .flashDownloader li a img{
+							width: 100%;
+							float: left;
+							margin: 0;
+							padding: 0;	
+							}
+			.vidContainer h2{
+			border-bottom: 1px solid #ccc;
+			margin: 0 2% 12px 2%;
+			width: 96%;
+			}
+			.vidContainer .vidHeader{
+			margin: 30px 2% 5px 2%;
+			width: 96%;
+			float: left;
+			border: none;
+			}
+		.vidContainer .videoThumb{
+			float: left;
+			height: auto;
+			width: 100%;
+			margin: 0;
+			}
+		.vidContainer .videoThumb .navContainer{
+			width:217px;
+			height:72px;
+			float:right;
+			margin:37px 0 0 0;
+			position:relative;
+			}
+				.vidContainer .videoThumb .navIT{
+					width: 30.7%;
+					margin: 0 0 25px 2%;
+					position: relative;
+					background-color:#FFFFFF;
+					height:auto;
+					float: left;
+					}
+					.vidContainer .videoThumb .navIT li{
+						position:relative;
+						background-color:#fff;
+						width:100%;	
+						margin:0 2% 25px 0;
+						float:left;
+						z-index:2;
+						border-bottom: solid #ccc 1px;
+						}
+						.vidContainer .videoThumb .navIT li .pHolder{
+							float: left;
+							height: auto;
+							padding: 0;
+							width: auto;
+							background:url(../images/sharedImg/logoSA_default.png) #000000 center center no-repeat;
+							background-size: 18% ;
+							}
+							.vidContainer .videoThumb .navIT li .pHolder .imgLink{
+								float: left;
+								height: auto;
+								margin: 0;
+								padding: 0;
+								width: auto;
+								}
+							.vidContainer .videoThumb .navIT li .pHolder .imgLink:hover{
+								opacity:0.5;
+								}
+								.vidContainer .videoThumb  .navIT li .pHolder .imgLink img{
+									float:left;
+									width: 100%;
+									height:auto;
+									}
+						.vidContainer .videoThumb .navIT li h3{
+							background-color:#FFFFFF;
+							float:left;
+							}
+						.vidContainer .videoThumb .navIT li p{
+							font-size: 13px;
+							float: left;
+							height: auto;							
+							}
+						.vidContainer .videoThumb .navIT li a{
+							float: right;
+							width: auto;	
+							}
+						.vidContainer .videoThumb .navIT .removeBorder{
+							border: none;
+							}
+		.vidContainer .otherVideoIcons {
+			width: 97.8%;
+			height: auto;
+			float: left;
+			margin: 0 0 100px 2%;
+			padding: 0;
+			}
+			.vidContainer .otherVideoIcons li{
+				width: 23.9%;
+				margin: 0 1% 0 0%;
+				float: left;
+				height: 208px;
+				}
+				.vidContainer .otherVideoIcons li p{
+					float: left;
+					margin: 0;
+					padding: 0;
+					width: 100%;
+					height: auto;
+					background:url(../images/sharedImg/logoSA_default.png) #000000 center center no-repeat;
+					background-size: 10% ;
+					}
+					.vidContainer .otherVideoIcons li h3{
+						float: left;
+						margin: 0;
+						padding: 0;
+						width: 100%;
+						text-align: center;
+						margin-top: 10px;
+						height: 44px;
+						font-size: 85%
+							
+						}
+					.vidContainer .otherVideoIcons li p a{
+						width: 100%;
+						height: auto;
+						float: left;
+						margin: 0;
+						padding: 0;
+						}
+					.vidContainer .otherVideoIcons li p a:hover{
+						opacity:0.5;
+						}
+						.vidContainer .otherVideoIcons li p a img{
+							width: 100%;
+							height: auto;
+							float: left;
+							}
+
+
+
+
+
+
+
+
+
+
+

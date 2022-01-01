@@ -1,0 +1,12 @@
+Adobe After Effects v14.0.1 Windows 64 render log for project “pokeblokVideo.aep”
+
+Rendering started on 2017-02-08 at 11:17:46 AM
+
+  2017-02-08 11:17:46 AM: Starting composition “Pokemon_App_DEMO”.
+
+  Output To: D:\projects\site\sherazasghar\assets\assets\lab\pokeblok.mov    2017-02-08 11:19:59 AM: Finished composition “Pokemon_App_DEMO”.
+
+
+  Total Time Elapsed: 2 Min, 12 Sec
+Log closed on 2017-02-08 at 11:19:59 AM
+

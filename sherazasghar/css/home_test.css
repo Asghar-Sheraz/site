@@ -1,0 +1,397 @@
+@charset "utf-8";
+/* CSS Document */
+.mainContainer{
+	background:#fff;
+	width:100%;
+	height:auto;
+	background-repeat:repeat;
+	padding:68px 0 0 0 ;
+	float:left;
+}
+
+	.projectContainer{
+		margin: 0 auto;
+		width:1600px;
+		min-height:auto;
+		-webkit-transition: width 0.6s ease-in-out;
+		-moz-transition: width 0.6s ease-in-out;
+		-o-transition: width 0.6s ease-in-out;
+		transition: width 0.6s ease-in-out;
+		}
+
+		.projectContainer .left{
+			width:50%;
+			height:auto;
+			background:#fff;
+			position:relative;
+			float:left
+			}
+
+	@media (max-width: 1600px) {		
+		.projectContainer{
+			width:96%;
+			margin: 0 2%; 
+			}
+		.projectContainer .left{
+			width:68.4%;
+			}
+		.projectContainer_2 ul{
+			width:100%;
+			}	
+		}	
+	@media (max-width: 1079px) {		
+		.projectContainer{
+			width:96%;
+			margin: 0 2%; 
+			}
+		.projectContainer .left{
+			width:68.4%;
+			}
+		.projectContainer_2 ul{
+			width:100%;
+			}	
+		}	
+			.projectContainer .left li{
+				background:#fff;
+				height:auto;
+				float:left;
+				overflow:hidden;
+				width:100%;
+				border-bottom: 1px solid #ccc;
+				margin-bottom:35px;
+				}
+			.projectContainer .left .removeLine{
+				border-bottom: none;
+				}
+			.projectContainer .left li h2{
+				border-bottom: 1px solid #ccc;
+				margin-bottom:12px;
+				}
+			.projectContainer .left li .pHolder{
+				float: left;
+				height: auto;
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				background-repeat:no-repeat;
+				background-color:#000;
+				background-position:center center;
+				background-size: 10% auto;
+				}
+				.projectContainer .left li .pHolder .imgLink{
+					float: left;
+					height: auto;
+					margin: 0;
+					padding: 0;
+					width: 100%;
+					}
+				.projectContainer .left li .pHolder .imgLink:hover{
+					opacity:0.5;
+					}
+					.projectContainer .left li .pHolder .imgLink img{
+						float:left;
+						width: 100%;
+						height:auto;
+						}
+			.projectContainer .left li h3{
+				float:left;
+				}
+			.projectContainer .left li .desc{
+				float:left;
+				background:#fff;
+				}
+			.projectContainer .left li a{
+				float:right;
+				}
+		.projectContainer .right{
+			width:21.5%;
+			height:auto;
+			background:#fff;
+			position:relative;
+			float:left;
+			margin-left:3.5%;
+			}
+		.projectContainer .recentVids{
+			width:46.5%;
+			
+			}
+			.projectContainer .right li{
+				background:#fff;
+				height:auto;
+				float:left;
+				overflow:hidden;
+				width:100%;
+			}
+				.projectContainer .right li h2{
+					text-align:center;	
+					}
+				.projectContainer .recentVids li h2{
+					border-bottom: 1px solid #ccc;	
+					}
+				.projectContainer .right li .artLiner{
+					border-bottom: 1px solid #ccc;
+					}
+				.projectContainer .right li .pHolder{
+					float: left;
+					height: auto;
+					margin: 0;
+					padding: 0;
+					width: 100%;
+					background-repeat:no-repeat;
+					background-color:#000;
+					background-position:center center;
+					background-size: 50px auto;
+					}
+				.projectContainer .right li .minionGif{
+					margin-top:10px;
+					}
+					.projectContainer .right li .pHolder .imgLink{
+						float: left;
+						height: auto;
+						margin: 0;
+						padding: 0;
+						width: 100%;
+						}
+					.projectContainer .right li .pHolder .imgLink:hover{
+						opacity:0.5;
+						}
+						.projectContainer .right li .pHolder .imgLink img{
+							float:left;
+							width: 100%;
+							height:auto;
+							}
+			.projectContainer .right .video_li{
+				min-height: 300px;
+				margin-top: 60px;
+				}
+				.projectContainer .right .video_li h2{
+					width:100%;
+					}
+				.projectContainer .right .video_li ul{
+					}
+					.projectContainer .right .video_li ul li{
+						}
+					.projectContainer .right .video_li ul .liner{
+						margin: 0 5%;
+						padding-top: 14px;
+						width: 90%;
+						}
+					.projectContainer .recentVids .video_li ul .liner{
+						width: 100%;
+						margin: 0;	
+						}
+					.projectContainer .recentVids .video_li ul .sideIT{
+						
+						}
+						.projectContainer .right .video_li ul p{
+							width:auto
+							}
+							.projectContainer .right .video_li ul p a{
+								width: 100%;
+								height:84%;
+								}
+							.projectContainer .right .video_li ul p a:hover{
+								opacity:0.5;
+								}
+							.projectContainer .right .video_li ul p img{
+								width:100%;
+								}
+						.projectContainer .right .video_li ul li h3{
+							float:left;
+							height: auto;
+							line-height: 22px;
+							text-align: center;
+							width:100%;
+							margin: 11px 0 26px 0;
+							}
+		.projectContainer .farRight{
+			width:21.5%;
+			height:auto;
+			background:#fff;
+			position:relative;
+			float:left;
+			margin-left:3.5%;
+			}
+			.projectContainer .farRight li{
+				background:#fff;
+				height:auto;
+				float:left;
+				overflow:hidden;
+				width:100%;
+			}
+				.projectContainer .farRight li h2{
+					text-align:center;	
+					}
+				.projectContainer .farRight li .artLiner{
+					border-bottom: 1px solid #ccc;
+					}
+				.projectContainer .farRight li .pHolder{
+					float: left;
+					height: auto;
+					margin: 0;
+					padding: 0;
+					width: 100%;
+					background-repeat:no-repeat;
+					background-color:#000;
+					background-position:center center;
+					background-size: 50px auto;
+					}
+					.projectContainer .farRight li .pHolder .imgLink{
+						float: left;
+						height: auto;
+						margin: 0;
+						padding: 0;
+						width: 100%;
+						}
+					.projectContainer .farRight li .pHolder .imgLink:hover{
+						opacity:0.5;
+						}
+						.projectContainer .farRight li .pHolder .imgLink img{
+							float:left;
+							width: 100%;
+							height:auto;
+							}
+			.projectContainer .farRight .video_li{
+				border: 1px solid #ccc;
+				min-height: 300px;
+				}
+				.projectContainer .farRight .video_li h2{
+					margin:6px 5%;
+					width:90%;
+				    padding: 7px 0 0 0;
+					}
+				.projectContainer .farRight .video_li ul{
+					}
+					.projectContainer .farRight .video_li ul li{
+						}
+					.projectContainer .farRight .video_li ul .liner{
+					    border-top: 1px solid #ccc;
+						margin: 0 5%;
+						padding-top: 20px;
+						width: 90%;
+						}
+						.projectContainer .farRight .video_li ul p{
+							width:auto
+							}
+							.projectContainer .farRight .video_li ul p a{
+								width: 100%;
+								height:84%;
+								}
+							.projectContainer .farRight .video_li ul p a:hover{
+								opacity:0.5;
+								}
+							.projectContainer .farRight .video_li ul p img{
+								width:100%;
+								}
+						.projectContainer .farRight .video_li ul li h3{
+							float:left;
+							height: auto;
+							line-height: 22px;
+							text-align: center;
+							width:100%;
+							margin: 11px 0 26px 0;
+							}
+
+	.projectContainer_2{
+		margin: 0 auto;
+		width:100%;
+		height:auto;
+		float:left;
+		margin-bottom: 70px;
+		margin-top: 90px;
+		min-height: 300px;
+		-webkit-transition: width 0.6s ease-in-out;
+		-moz-transition: width 0.6s ease-in-out;
+		-o-transition: width 0.6s ease-in-out;
+		transition: width 0.6s ease-in-out;
+		}
+			.projectContainer_2 {
+				margin: 63px auto 0 3.5%;
+				background:#fff;
+				width:46.5%
+				}
+			.projectContainer_2  .linkText{
+				width: 32.3%;
+				float: left;
+				height: 38px;
+				text-align: center;
+				margin: 0 1% 0 0;
+				text-align: left;
+				}
+			.projectContainer_2  .list_2{
+				width:100%;
+				background:#000;
+				height:auto;
+				float:left;
+				display:block;
+				height: 250px;
+				overflow: hidden;
+				margin-bottom: 14px;
+				}
+
+			.projectContainer_2  .list_2 .linkAnim{
+				width:100%;
+				height:551px;
+				display:block;
+				overflow:hidden;
+				text-align:center;
+				}
+			.projectContainer_2  .list_2 h2{
+				width:100%;
+				text-align:center;
+				padding-top: 10px;
+				color:#FFFFFF;
+				}
+			.projectContainer_2  .list_2 .linkAnim{
+				background-position:center;
+				background-repeat:no-repeat;
+				background-position:center -225px ;
+				}
+			.projectContainer_2 .list_2 .linkAnim{
+				margin: 0;
+				text-decoration:none;
+				}
+			.projectContainer_2 .list_2 .lab{
+				background-image:url(../images/projects/lab_default.png);
+				background-position:324px -138px;
+				background-size:654px auto;
+				-webkit-transition: background-position 0.3s ease-in-out;
+				-moz-transition: background-position 0.3s ease-in-out;
+				-o-transition: background-position 0.3s ease-in-out;
+				transition: background-position 0.3s ease-in-out;
+				}
+			.projectContainer_2 .list_2 .lab:hover{
+				
+				background-position:-136px -8px;
+				}
+			.projectContainer_2 .list_2 .about{
+				background-position: 404px -191px;
+				background-image:url(../images/projects/about_default.png);
+				background-size:497px auto;
+				-webkit-transition: background-position 0.3s ease-in-out;
+				-moz-transition: background-position 0.3s ease-in-out;
+				-o-transition: background-position 0.3s ease-in-out;
+				transition: background-position 0.3s ease-in-out;
+				}
+			.projectContainer_2  .list_2 .about:hover{
+				background-position: -106px 89px;
+				}
+			.projectContainer_2  .list_2 .contact{
+				background-position: 423px -32px;
+				background-size:535px auto;
+				background-image:url(../images/projects/montreal_default.png);
+				-webkit-transition: background-position 0.3s ease-in-out;
+				-moz-transition: background-position 0.3s ease-in-out;
+				-o-transition: background-position 0.3s ease-in-out;
+				transition: background-position 0.3s ease-in-out;
+				}
+			.projectContainer_2 .list_2 .contact:hover{
+				background-position: -137px -35px;
+				}
+				.projectContainer_2  .list_2 .linkAnim h3{
+					color:#fff;
+					margin:23px 0 0 0;
+					width:100%;
+					}
+
+

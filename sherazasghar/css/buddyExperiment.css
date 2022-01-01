@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+h1, h2, h3{
+	font-family: 'Teko', sans-serif;
+	display:block;
+	margin:0;
+	padding:0px;
+}
+.mainContainer{
+	background:#fff;
+	width:100%;
+	height:auto;
+	background-image:url(../images/sharedImg/bg_bottom.jpg);
+	background-repeat:repeat;
+	background-position:423px 0;
+	padding:50px 0 0 0 ;
+	float:left;
+}
+	.default_Lab{
+		margin: 0 auto;
+		width:100%;
+		height:auto;
+		margin-bottom:70px;
+		text-align:center;
+		float:left;
+		
+		}
+		.default_Lab .icons{
+			display: table;
+			margin: 0 auto;
+			background:none
+		}
+			.default_Lab .icons li{
+				display:block;
+				width:140px;
+				height:90px;
+				display:block;
+				list-style-type:none;
+				float:left;
+				margin: 10px 0 0 10px;
+				background:none;
+			}
+				.default_Lab .icons li img {
+						width:140px;
+						height:90px;
+				}
+		.default_Lab  h2{
+			margin:0;
+			padding:0;
+			display:block;
+			font-size:46px;
+			font-weight:500;
+			margin-top:15px;
+			-webkit-transition: margin-top 0.6s ease-in-out;
+			-moz-transition: margin-top 0.6s ease-in-out;
+			-o-transition: margin-top 0.6s ease-in-out;
+			transition: margin-top 0.6s ease-in-out;
+			}
+		.default_Lab  p{
+			display: block;
+			font-size: 12px;
+			margin: 0 auto;
+			padding: 0 0 22px 0;
+			width: 44%;
+			background:none;
+			-webkit-transition: width 0.6s ease-in-out;
+			-moz-transition: width 0.6s ease-in-out;
+			-o-transition: width 0.6s ease-in-out;
+			transition: width 0.6s ease-in-out;
+			}
+		.default_Lab  .table{
+				display: table;
+				margin: 0 auto;
+				}
+			.default_Lab .table  ul{
+					width:auto;
+					height:auto;
+					display:block;
+					margin:auto;
+					padding:0;
+					list-style-type:none;
+					}
+					.default_Lab .table ul li{
+						float:left;
+						}
+						.default_Lab  .table ul .text{
+							margin:0 15px 0 0;
+							background:none;
+							margin: -16px 15px 0 0;
+							}
+							.default_Lab  .table ul .text h2{
+								font-size:30px;
+								font-weight: 400;
+								margin:0 0 0 0 ;
+								}
+						.default_Lab .table ul .tools{
+							width:30px;
+							height:30px;
+							margin:5px 1px 0 0
+								}
+							.default_Lab  .table ul li img{
+								width:100%;
+								margin: 2px 0 0 0
+								}
+	.artWork_Lab{
+		float: left;
+		height: auto;
+		margin: -70px 0 auto;
+		text-align: center;
+		width: 100%;
+		}
+		.artWork_Lab img{
+			margin:auto;
+			padding:0;
+			display:block;
+			width:35%;
+			}
+		@media (max-width: 1650px) {
+			.default_Lab  img{
+				width:55%;
+				}
+			.default_Lab  p{
+				width: 55%;
+				}
+			.artWork_Lab img{
+				width:41%;
+				}
+		}
+		@media (max-width: 1450px) {
+			.default_Lab  img{
+				width:65%;
+				}
+			.default_Lab  p{
+				width: 65%;
+				}
+			.artWork_Lab img{
+				width:42%;
+				}
+		}
+		@media (max-width: 1000px) {
+			.default_Lab  img{
+				width:95%;
+				}
+			.default_Lab  p{
+				width: 95%;
+				}
+			.artWork_Lab img{
+				width:43%;
+				}
+		}
+
+	

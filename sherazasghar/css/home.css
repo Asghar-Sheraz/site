@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+.mainContainer{
+	background:#fff;
+	width:100%;
+	height:auto;
+	background-repeat:repeat;
+	padding:68px 0 0 0 ;
+	float:left;
+}
+
+	.projectContainer{
+		margin: 0 auto;
+		width:1079px;
+		min-height:1000px;
+		-webkit-transition: width 0.6s ease-in-out;
+		-moz-transition: width 0.6s ease-in-out;
+		-o-transition: width 0.6s ease-in-out;
+		transition: width 0.6s ease-in-out;
+		}
+
+		.projectContainer .left{
+			width:69.4%;
+			height:auto;
+			background:#fff;
+			position:relative;
+			float:left
+			}
+
+	@media (max-width: 1079px) {		
+		.projectContainer{
+			width:96%;
+			margin: 0 2%; 
+			}
+		.projectContainer .left{
+			width:68.4%;
+			}
+		.projectContainer_2 ul{
+			width:100%;
+			}	
+		}	
+			.projectContainer .left li{
+				background:#fff;
+				height:auto;
+				float:left;
+				overflow:hidden;
+				width:100%;
+				border-bottom: 1px solid #ccc;
+				margin-bottom:35px;
+				}
+			.projectContainer .left .removeLine{
+				border-bottom: none;
+				}
+			.projectContainer .left li h2{
+				border-bottom: 1px solid #ccc;
+				margin-bottom:12px;
+				}
+			.projectContainer .left li .pHolder{
+				float: left;
+				height: auto;
+				margin: 0;
+				padding: 0;
+				width: auto;
+				background-repeat:no-repeat;
+				background-color:#000;
+				background-position:center center;
+				background-size: 10% auto;
+				}
+				.projectContainer .left li .pHolder .imgLink{
+					float: left;
+					height: auto;
+					margin: 0;
+					padding: 0;
+					width: auto;
+					}
+				.projectContainer .left li .pHolder .imgLink:hover{
+					opacity:0.5;
+					}
+					.projectContainer .left li .pHolder .imgLink img{
+						float:left;
+						width: 100%;
+						height:auto;
+						}
+			.projectContainer .left li h3{
+				float:left;
+				}
+			.projectContainer .left li .desc{
+				float:left;
+				background:#fff;
+				}
+			.projectContainer .left li a{
+				float:right;
+				}
+		.projectContainer .right{
+			width:25.9%;
+			height:auto;
+			background:#fff;
+			position:relative;
+			float:left;
+			margin-left:50px;
+			}
+			.projectContainer .right li{
+				background:#fff;
+				height:auto;
+				float:left;
+				overflow:hidden;
+				width:100%;
+			}
+				.projectContainer .right li h2{
+					text-align:center;	
+					}
+				.projectContainer .right li .artLiner{
+					border-bottom: 1px solid #ccc;
+					}
+				.projectContainer .right li .pHolder{
+					float: left;
+					height: auto;
+					margin: 0;
+					padding: 0;
+					width: 100%;
+					background-repeat:no-repeat;
+					background-color:#000;
+					background-position:center center;
+					background-size: 50px auto;
+					}
+					.projectContainer .right li .pHolder .imgLink{
+						float: left;
+						height: auto;
+						margin: 0;
+						padding: 0;
+						width: 100%;
+						}
+					.projectContainer .right li .pHolder .imgLink:hover{
+						opacity:0.5;
+						}
+						.projectContainer .right li .pHolder .imgLink img{
+							float:left;
+							width: 100%;
+							height:auto;
+							}
+			.projectContainer .right .video_li{
+				border: 1px solid #ccc;
+				margin-top: 40px;
+				min-height: 300px;
+				}
+				.projectContainer .right .video_li h2{
+					margin:6px 5%;
+					width:90%;
+				    padding: 7px 0 0 0;
+					}
+				.projectContainer .right .video_li h2 a{
+					font-size: 34px;
+					}
+				.projectContainer .right .video_li ul{
+					}
+					.projectContainer .right .video_li ul li{
+						}
+					.projectContainer .right .video_li ul .liner{
+					    border-top: 1px solid #ccc;
+						margin: 0 5%;
+						padding-top: 14px;
+						width: 90%;
+						}
+						.projectContainer .right .video_li ul p{
+							width:auto
+							}
+							.projectContainer .right .video_li ul p a{
+								width: 100%;
+								height:84%;
+								}
+							.projectContainer .right .video_li ul p a:hover{
+								opacity:0.5;
+								}
+							.projectContainer .right .video_li ul p img{
+								width:100%;
+								}
+						.projectContainer .right .video_li ul li h3{
+							float:left;
+							height: auto;
+							line-height: 22px;
+							text-align: center;
+							width:100%;
+							margin: 11px 0 26px 0;
+							}
+	.projectContainer_2{
+		margin: 0 auto;
+		width:100%;
+		height:auto;
+		float:left;
+		margin-bottom: 70px;
+		margin-top: 90px;
+		min-height: 300px;
+		-webkit-transition: width 0.6s ease-in-out;
+		-moz-transition: width 0.6s ease-in-out;
+		-o-transition: width 0.6s ease-in-out;
+		transition: width 0.6s ease-in-out;
+		}
+			.projectContainer_2 ul{
+				margin: 0 auto;
+				background:#fff;
+				width:80%
+				}
+			.projectContainer_2 ul .linkText{
+				width: 32.3%;
+				float: left;
+				height: 38px;
+				text-align: center;
+				margin: 0 1% 0 0;
+				text-align: left;
+				}
+			.projectContainer_2 ul .list_2{
+				width:33%;
+				background:#fff;
+				height:auto;
+				float:left;
+				display:block;
+				height: 250px;
+				overflow: hidden;
+				}
+
+			.projectContainer_2 ul .list_2 .linkAnim{
+				width:100%;
+				height:551px;
+				display:block;
+				overflow:hidden;
+				text-align:center;
+				}
+			.projectContainer_2 ul .list_2 h2{
+				width:100%;
+				text-align:center;
+				padding-top: 10px;
+				color:#FFFFFF;
+				}
+			.projectContainer_2 ul .list_2 .linkAnim{
+				background-position:center;
+				background-repeat:no-repeat;
+				background-position:center -225px ;
+				}
+			.projectContainer_2 ul .list_2 .linkAnim{
+				margin: 0;
+				text-decoration:none;
+				}
+			.projectContainer_2 ul .list_2 .lab{
+				background-image:url(../images/projects/lab_default.png);
+				background-position:234px -118px;
+				background-size:654px auto;
+				-webkit-transition: background-position 0.3s ease-in-out;
+				-moz-transition: background-position 0.3s ease-in-out;
+				-o-transition: background-position 0.3s ease-in-out;
+				transition: background-position 0.3s ease-in-out;
+				}
+			.projectContainer_2 ul .list_2 .lab:hover{
+				background-position:-131px 22px;
+				}
+			.projectContainer_2 ul .list_2 .about{
+				background-position:-255px -361px;
+				background-image:url(../images/projects/about_default.png);
+				background-size:497px auto;
+				-webkit-transition: background-position 0.3s ease-in-out;
+				-moz-transition: background-position 0.3s ease-in-out;
+				-o-transition: background-position 0.3s ease-in-out;
+				transition: background-position 0.3s ease-in-out;
+				}
+			.projectContainer_2 ul .list_2 .about:hover{
+				background-position:-80px 96px;
+				}
+			.projectContainer_2 ul .list_2 .contact{
+				background-position: 173px -15px;
+				background-size:535px auto;
+				background-image:url(../images/projects/montreal_default.png);
+				-webkit-transition: background-position 0.3s ease-in-out;
+				-moz-transition: background-position 0.3s ease-in-out;
+				-o-transition: background-position 0.3s ease-in-out;
+				transition: background-position 0.3s ease-in-out;
+				}
+			.projectContainer_2 ul .list_2 .contact:hover{
+				background-position: -7px 0px;
+				}
+				.projectContainer_2 ul .list_2 .linkAnim h3{
+					color:#fff;
+					margin:23px 0 0 0;
+					width:100%;
+					}
+
+

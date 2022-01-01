@@ -1,0 +1,362 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);*/
+
+body {
+	font-family: 'Reem Kufi', sans-serif;
+	letter-spacing:0px;
+}
+p {
+	font-family: 'Reem Kufi', sans-serif;
+	letter-spacing:0px
+}
+ul li {
+	font-family: 'Reem Kufi', sans-serif;
+	letter-spacing:0px
+}
+
+h1, h2, h3 {
+font-family: 'Reem Kufi', sans-serif;
+letter-spacing:0px
+}
+/*header*/
+body #header .menuHolder ul .arabicMn{
+	font-size:14px;
+	margin-top:11px;
+}
+#header .menuMobile ul .arabicMn{
+	font-family: 'Reem Kufi', sans-serif;
+}
+h3{
+	font-size:20px;	
+}
+
+/**home**/
+.projectContainer .left li h1{
+	text-align:right;
+	}
+.projectContainer .left{
+	float:right;
+	}
+.projectContainer .right{
+	float:right;
+	margin-left:0;
+	margin-right:50px;
+	}
+.projectContainer .left li h3{
+	float:right;
+	}
+.projectContainer .left li .desc{
+	text-align:right;
+	}
+.projectContainer .left li a{
+	float:left;
+	}
+.projectContainer .left li p a{
+	height:96.9%;
+	}
+.projectContainer .right li p a{
+	height:93%;
+	}
+.projectContainer .right .video_li ul p a{
+	height:81%;
+	}
+.projectContainer .left li h2{
+	text-align:right;
+	
+	}				
+/**projects**/
+#slides .slides-navigation .bannerContent .projectCallOut {
+    letter-spacing: 0px;
+	line-height:119px;
+	margin:0 0 28px 0;
+}
+#slides .slides-navigation .bannerContent{
+	float:right;
+	text-align:right;
+	margin-right:8%;
+}
+#slides .slides-navigation .bannerContent .projectTitle{
+	letter-spacing:0px;
+	font-size:16px;
+}
+#slides .slides-navigation .bannerContent p{
+	float:right;
+	font-size:14px;
+	clear:right;
+	line-height:27px;
+	width:50%;
+}
+#slides .slides-navigation .bannerContent div{
+	float:right;
+	clear:right;
+}
+#slides .slides-navigation .bannerContent .button{
+	font-size:16px;
+	letter-spacing:0px;
+	padding-top:3px;
+	float:right;
+	height:35px;
+}
+.slides-navigation #hover_area{
+	position:absolute;
+	left:125px;
+	font-size:16px;
+}
+.slides-navigation div .vidBtn{	
+	margin-top:6%;
+}
+.levelTwo div{
+	text-align:right;
+}
+.levelTwo div h2{
+	text-align:right;
+	float:left;
+	margin:15px 32px 20px 0;
+	width:100%;
+	line-height:66px;
+}	
+.levelFour ul li{
+	text-align:right;
+}
+.slides-navigation div .vidBtn h2{
+	letter-spacing:0;
+}
+.levelFour h2, .levelFour h3{
+	margin: 39px 0 26px;
+	text-align:right;
+}
+.levelFour p{
+	text-align:right;
+	}
+.slides-navigation a.prev{
+	z-index:4;
+	width:125px;
+	border-right:none;
+}
+.slides-navigation a.next{
+	width:124px;
+}
+.slides-navigation a.down{
+	background-position:89px 0;
+}
+.levelOne .tool_ul .tool_li p{
+    margin-top: -26px;
+    opacity: 0.7;
+    padding: 0 0 8px 0;
+}
+.levelOne .tool_ul .tool_li{
+	height:auto;
+}
+.levelThree h2{
+	padding:0 0 35px 0;
+}
+
+.default_Artwork .imgHolder h3{
+	line-height:39px;
+	margin-bottom:16px;
+	margin-top:27px;
+}
+.default_Artwork .contentCenter .imgHolder h3{
+	text-align:right;
+	width:100%
+	}
+.default_Artwork .contentCenter .imgHolder p{
+	text-align:right;
+	}	
+.default_Artwork .contentCenter .imgHolder a{
+	float:left;
+	}
+
+.cntH2{
+	maargin-bottom:10px;
+}
+.levelTwo div .line_A{
+    border-bottom: 1px solid #ccc;
+    float: right;
+    font-size: 50px;
+    width: auto;
+    margin: 0;
+    line-height: 76px;
+}
+.levelTwo div .line_B{
+    float: right;
+    width: 80%;
+}
+.levelTwo div .para_A{
+}
+
+/**about**/
+.summary .left{
+	float:right;
+	}
+.summary .right{
+	float:right;
+	margin-left:0;
+	margin-right:3%;
+	}
+.summary .right li h2{
+	text-align:right;
+	margin-left:0;
+	margin-right:37px;
+	}
+@media (max-width: 1350px) {		
+.summary .right li h2{
+		margin-right:25px;
+		}
+}	
+.summary .left li h2{
+	text-align:right;
+	}
+.summary .left li p{
+	text-align:right;
+	float:right;
+	}
+.summary .right li ul li{
+	float:right;
+	background:url(../images/sharedImg/line.jpg) no-repeat center left;
+	}
+/**artwork**/		
+.default_Artwork li h2{
+	text-align:right;
+	}
+.default_Artwork li ul li h3{
+	float:right;
+}
+.default_Artwork li ul li p{
+	text-align:right;
+	}
+.default_Artwork li ul li a{
+	float:left;
+	
+	}
+/**lab**/
+.default_Lab .labCallHolder a{
+	left:49%;
+	letter-spacing:0;
+	}
+.default_Lab .table ul .text {
+    float: right;
+    margin-left:15px;
+}
+.default_lab li h2{
+	text-align: right;
+}
+.default_lab li ul li h3{
+	width:100%;
+	text-align: right;
+}
+.default_lab li ul li p{
+	text-align: right;
+}
+.default_lab li ul li a{
+	float:left;
+}
+
+/**contact**/
+.contactForm .info{
+	text-align:right;
+	margin: 0 50px 0 0
+	}
+.contactForm .info li a{
+	float:right;
+	margin: 0 0 0 7px;
+	}
+.contactForm ul{
+	float:right;
+	}
+textarea{
+	text-align:right;
+	padding:21px 16px 0 0;
+	}		
+/**videos**/
+.mobile_videos li h3{
+	text-align:right;
+	}	
+.mobile_videos li p{
+	text-align:right;
+	}	
+.vidContainer h2{
+	text-align:right;
+}
+.vidContainer .videoHolder h3{
+	float:right;
+	}
+.vidContainer .thumbs div p{
+	padding:0;
+	text-align:right;
+}
+.vidContainer .videoHolder{
+	width:100%;
+	text-align:right;
+	}
+.vidContainer .videoHolder p{
+	float:right;
+	}
+.vidContainer .videoHolder .vimeoLink {
+    margin-left: 2%;
+    float: left;
+}
+.vidContainer .videoHolder video {
+    float: right;
+	width: 100%;
+}
+	@media (max-width: 1220px) {
+	.vidContainer{
+		width:96%;
+		padding-left:3%
+		}
+		.vidContainer .videoHolder{
+			width:65.8%;
+			}
+	}
+.vidContainer .videoThumb .navIT li p{
+	text-align: right;
+}
+.vidContainer .videoThumb .navIT li h3{
+	text-align: right;
+	width: 100%;
+}
+.vidContainer .videoThumb .navIT li a{
+	float:left;	
+}
+
+
+
+/*login*/
+.loginMain ul li input{
+	letter-spacing:0;
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

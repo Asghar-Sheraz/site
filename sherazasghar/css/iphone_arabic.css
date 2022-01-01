@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+#slides .slides-navigation #hover_area_mobile{
+	position:absolute;
+	left:250px;
+}
+
+#slides .slides-navigation .vidDiv{
+    float: right;
+    margin: 22px 13px 0 0;
+	}
+body #slides .slides-navigation .bannerContent .projectCallOut {
+    letter-spacing: 0px;
+	line-height:59px;
+}
+.default_Artwork{
+	margin-top:19px;
+	
+}
+.cntH2{
+	line-height:74px;
+}
+/**projects**/
+.mainContainer .levelTwo div .line_A{
+	font-size:30px;
+	line-height:49px;
+	margin:15px 0 0 0;
+	
+	}
+/**home**/
+	.mainContainer .projectContainer .right{
+		margin:0;
+		}
+
+/**about**/
+.mainContainer .summary .right{
+	margin-right:0;
+	}
+.mainContainer .summary .right li h2{
+	margin-right:0;
+	}
+.mainContainer .summary .right li ul{
+	margin-left:-1px;
+	}	
+/*contact*/
+.mainContainer .contactForm .info{
+	margin: 0
+	}

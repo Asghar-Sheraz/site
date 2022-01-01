@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+.slides-navigation #hover_area_mobile{
+	display:none;
+	}
+.slides-navigation #hover_area{
+	display:block;
+	}
+.mainContainer{
+	background:#fff;
+	width:100%;
+	height:auto; /*4290px;*/
+	background-repeat:repeat;
+	padding:68px 0 0 0 ;
+	float:left;
+}
+	.default_lab{
+		height:auto;
+		width:1125px;
+		margin:auto;
+		-webkit-transition: width 0.6s ease-in-out;
+		-moz-transition: width 0.6s ease-in-out;
+		-o-transition: width 0.6s ease-in-out;
+		transition: width 0.6s ease-in-out;
+		}
+		.default_lab li{
+			background-color: #fff;
+			}
+		@media (max-width: 1079px) {		
+			.default_lab{
+				width:96%;
+				margin: 0 2%; 
+				}
+			}	
+			.default_lab li h2{
+				border-bottom: 1px solid #ccc;
+				margin: 0 2% 12px 2%;
+				padding: 0;
+				width: 96%;
+				}
+			.default_lab li ul{
+				float: left;
+				width: 100%;
+				background:#FFFFFF;
+				margin-bottom:65px;
+				-webkit-transition: width 0.6s ease-in-out;
+				-moz-transition: width 0.6s ease-in-out;
+				-o-transition: width 0.6s ease-in-out;
+				transition: width 0.6s ease-in-out;				
+				}
+			.default_lab li .left{
+				width: 50%;
+				}
+			.default_lab li .right li{
+				margin-left: 3.1%
+				}
+				.default_lab li ul li{
+					border-bottom: 1px solid #ccc;
+					float: left;
+					margin-left:4%;
+					margin-right:0%;
+					margin-bottom:50px;
+					width: 93%;
+					}
+					.default_lab li ul li .pHolder{
+						float: left;
+						height: auto;
+						margin: 0;
+						padding: 0;
+						width: 100%;
+						background:url(../images/sharedImg/logoSA_default.png) #000000 center center no-repeat;
+						background-size: 10% ;
+						
+						}
+						.default_lab li ul li .linkImg{
+							float: left;
+							height: auto;
+							margin: 0;
+							padding: 0;
+							width: auto;
+							}
+						.default_lab li ul li .linkImg:hover{
+							opacity:0.5;
+							}
+							.default_lab li ul li .linkImg img{
+								float:left;
+								width: 100%;
+								height:auto;
+								}
+					.default_lab li ul li h3{
+						float:left;
+						}
+					.default_lab li ul li p{
+						float:left;
+						background-color: #fff;
+						color: #999;
+						}
+					.default_lab li ul li a{
+						background:#FFFFFF;
+						float:right;
+						}
+	.lab_enlarge{
+		height:auto;
+		width:1079px;
+		margin:auto;
+		-webkit-transition: width 0.6s ease-in-out;
+		-moz-transition: width 0.6s ease-in-out;
+		-o-transition: width 0.6s ease-in-out;
+		transition: width 0.6s ease-in-out;
+		}
+		@media (max-width: 1079px) {		
+			.lab_enlarge{
+				width:96%;
+				margin: 0 2%; 
+				}
+			}	
+		.lab_enlarge li{
+			background-color:#fff;
+			}
+			.lab_enlarge li h2{
+				border-bottom: 1px solid #ccc;
+				margin: 0 0 12px;
+				padding: 0;
+				}
+			.lab_enlarge li ul{
+				float:left;
+				background:#FFFFFF;
+				}
+				.lab_enlarge li ul li{
+					margin:0 0 110px 0;
+					float:left;
+					padding: 0 0 37px;
+					overflow: hidden;
+					}
+					.lab_enlarge li ul li video{
+						height: auto;
+						margin: 0;
+						padding: 0;
+						width: 100%;
+						float:left;
+						}
+					.lab_enlarge li ul li h3{
+						margin: 24px 0 6px;
+						float:left;
+						}
+					.lab_enlarge li ul li p{
+						background-color: #fff;
+						color: #999;
+						float: left;
+						width: 100%;
+						margin: 16px 0 0 0;
+						
+						}
+					.lab_enlarge li ul li a{
+						background:#FFFFFF;
+						float:right;
+						}
+					.lab_enlarge li ul li .imgContent{
+						margin: 18px 0 0 0;
+						width: 100%;
+						border-top: 1px solid #ccc;
+						padding: 61px 0 0 0;
+						display: block;
+						}
+						.lab_enlarge li ul li .imgContent li{
+							width: 46%;
+							border: none;
+							margin: 0 2% 0 2%;
+							}
+							.lab_enlarge li ul li .imgContent li img{
+								width: 96%
+								}
+
+							.lab_enlarge li ul li .imgContent li p{
+								width: 100%;
+								height: auto;
+								}
+					.lab_enlarge li ul li .labIcons{
+						margin: 50px 0 0 0;
+						width: 101%;
+						border-top: 1px solid #ccc;
+						padding: 18px 0 0 0;
+						}
+						.lab_enlarge li ul li .labIcons li{
+							width: 25%;
+							border: none;
+							margin: 0 0 0 0;
+							padding: 0 0 0 0;
+							height: 200px;
+							}
+								.lab_enlarge li ul li .labIcons li p{
+									width: 100%;
+									margin: 0;
+									}
+									.lab_enlarge li ul li .labIcons li p a{
+										width: 96%;
+										float: left;
+										margin: 0;
+										background:url(../images/sharedImg/logoSA_default.png) #000000 center center no-repeat;
+										background-size: 18%
+										}
+									.lab_enlarge li ul li .labIcons li p a img{
+										width: 100%;
+										float: left;
+										-webkit-transition: opacity 0.6s ease-in-out;
+										-moz-transition: opacity 0.6s ease-in-out;
+										-o-transition: opacity 0.6s ease-in-out;
+										transition: opacity 0.6s ease-in-out;			
+										}		
+									.lab_enlarge li ul li .labIcons li p a img:hover{
+										opacity: 0.5;
+										}
+									.lab_enlarge li ul li .labIcons li h3{
+										width: 100%;
+										float: left;
+										font-size: 85%;
+										text-align: center;
+										margin: 7px 0 29px 0
+										}
+
+					.lab_enlarge li ul li iframe{
+						height: 610px;
+						margin: 0;
+						padding: 0;
+						width: 100%;
+						float:left;
+						}
+				
+				
+				
+				
+				

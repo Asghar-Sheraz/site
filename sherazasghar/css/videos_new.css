@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+.mainContainer{
+	background:#fff;
+	width:100%;
+	height:auto; /*4290px;*/
+	background-repeat:repeat;
+	padding:68px 0 0 0 ;
+	float:left;
+}
+
+	.vidContainer{
+		margin: 0 auto;
+		width:1125px;
+		height:auto;
+		-webkit-transition: width 0.6s ease-in-out;
+		-moz-transition: width 0.6s ease-in-out;
+		-o-transition: width 0.6s ease-in-out;
+		transition: width 0.6s ease-in-out;
+		}
+		@media (max-width: 1200px) {		
+			.vidContainer{
+				width:100%;
+				}
+			}	
+		.vidContainer .videoHolder video{
+			width:96%;
+			height:auto;
+			float:left;
+			margin: 0 0 0 2%; 
+			}
+			.vidContainer .videoHolder h3{
+				background-color:#fff;
+				font-size:14px;
+				margin:32px 0 8px 2%;
+				width:97%;
+				float:left;
+				}
+			.vidContainer .videoHolder p{
+				width:97%;
+				height:auto;
+				background-color:#fff;
+				line-height:50px;
+				float:left;
+				margin: 0 0 50px 2%;
+				}
+			.vidContainer h2{
+			border-bottom: 1px solid #ccc;
+			line-height: 58px;
+			margin: 0 2% 12px 2%;
+			width: 96%;
+			}
+		.vidContainer .videoThumb{
+			float: left;
+			height: auto;
+			width: 100%;
+			margin: 0;
+			}
+		.vidContainer .videoThumb .navContainer{
+			width:217px;
+			height:72px;
+			float:right;
+			margin:37px 0 0 0;
+			position:relative;
+			}
+				.vidContainer .videoThumb .navIT{
+					width: 100%;
+					margin: 0 0 25px 2%;
+					position: relative;
+					background-color:#FFFFFF;
+					height:auto;
+					float: left;
+					}
+					.vidContainer .videoThumb .navIT li{
+						position:relative;
+						background-color:#fff;
+						width:30.7%;	
+						margin:0 2% 25px 0;
+						float:left;
+						z-index:2;
+						border-bottom: solid #ccc 1px;
+						}
+						.vidContainer .videoThumb .navIT li .pHolder{
+							float: left;
+							height: auto;
+							margin: 0 0 14px 0;
+							padding: 0;
+							width: auto;
+							background:url(../images/sharedImg/logoSA_default.png) #000000 center center no-repeat;
+							background-size: 10% ;
+							}
+							.vidContainer .videoThumb .navIT li .pHolder .imgLink{
+								float: left;
+								height: auto;
+								margin: 0;
+								padding: 0;
+								width: auto;
+								}
+							.vidContainer .videoThumb .navIT li .pHolder .imgLink:hover{
+								opacity:0.5;
+								}
+								.vidContainer .videoThumb  .navIT li .pHolder .imgLink img{
+									float:left;
+									width: 100%;
+									height:auto;
+									}
+						.vidContainer .videoThumb .navIT li h3{
+							background-color:#FFFFFF;
+							padding-top:8px;
+							font-size:14px;	
+							float:left;
+							}
+						.vidContainer .videoThumb .navIT li p{
+							padding: 9px 0 18px 0;
+							font-size: 14px;
+							float: left;
+							line-height: 33px;
+							min-height: 150px;
+							height: auto;							
+							}
+						.vidContainer .videoThumb .navIT li a{
+							float: right;
+							width: auto;	
+							}
+
+
+
+
+
+
+
+
+
+
+
+

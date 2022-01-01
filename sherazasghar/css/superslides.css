@@ -1,0 +1,206 @@
+#slides {
+  position: relative;
+}
+#slides .slides-container {
+  display: none;
+}
+#slides .scrollable {
+  *zoom: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
+#slides .scrollable:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.slides-navigation {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+  top: 35%;
+  width: 100%;
+}
+
+.slides-navigation a {
+  position: absolute;
+  display: block;
+  margin: 0;
+}
+
+.slides-navigation a.prev {
+	width:125px;
+	height:125px;
+    position: absolute; 
+    top: 0; 
+    right: 0;
+	margin-right:0;
+	z-index:1;
+	background-image:url(../images/sharedImg/prev.png);
+  }
+.slides-navigation a.prev:hover {
+}
+.slides-navigation a.next {
+	width:125px;
+	height:125px;
+    position: absolute; 
+    top: 0; 
+    right: 0;
+	z-index:3;
+	background-image:url(../images/sharedImg/next.png);
+}
+.slides-navigation a.next:hover {
+}
+.slides-navigation a.down {
+	width:125px;
+	height:125px;
+    position: absolute; 
+    top: 0; 
+    right: 0;
+	margin-top:0;
+	z-index:2;
+	background-image:url(../images/sharedImg/down.png);
+}
+.slides-navigation a.downer:hover {
+}
+.slides-navigation div .vidBtn {
+    color: #fff;
+    margin: 13px 0 0 22px;
+    padding: 0 0 0 0;
+	line-height:31px;
+    text-decoration: none;
+    width: auto;
+    height: 108px;
+	display:block;
+	letter-spacing:2px;
+	display:none;
+	}
+	.slides-navigation div .vidBtn:hover{
+		}
+.slides-navigation div .vidBtn h2{
+	font-size:30px;
+	line-height:40px;
+	color:#fff;
+	}
+
+
+.slides-pagination {
+  position: absolute;
+  z-index: 3;
+  bottom: 100px;
+  text-align: center;
+  width: 100%;
+  display:none;
+}
+.slides-pagination a {
+  border: 1px solid #fff;
+  border-radius: 40px;
+  width: 15px;
+  height: 15px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=");
+  margin: 6px;
+  overflow: hidden;
+  text-indent: -1000px;
+  display:none;
+  
+}
+.slides-pagination a.current {
+  background: #fff;
+}
+#slides .slides-navigation .bannerContent {
+	float:left;
+	margin:-226px 0 0 8%;
+	 }
+	#slides .slides-navigation .bannerContent .projectTitle {
+		font-weight:800;
+		font-size:12px;
+		width:100%;
+		margin:0 0 0 0;
+		padding-bottom:20px;
+		letter-spacing:5px;
+		background:none;
+	 }
+	#slides .slides-navigation .bannerContent .projectCallOut {
+		font-size:100px;
+		color:#FFFFFF;
+		width:100%;
+		clear:left;
+		margin:0 0 -9px -4px;
+		line-height:76px;
+		text-shadow:1px 1px 1px #000;
+		 }
+	#slides .slides-navigation .bannerContent p {
+		color:#b9b9b9;
+		width:35%;
+		margin:0 0 0 0;
+		padding-top:10px;
+		letter-spacing:1px;
+		line-height:20px;
+		text-shadow:1px 1px 1px #000;
+		background:none;
+		font-size:12px;
+		 }
+	#slides .slides-navigation .bannerContent .p2 {
+		color:#fff;
+		width:25%;
+		margin:0 0 0 0;
+		padding-top:10px;
+		letter-spacing:1px;
+		clear:left;
+		 }
+	#slides .slides-navigation .bannerContent div {
+		width: auto;
+		float: left;
+		height:80px;
+		position:relative;
+	}
+	#slides .slides-navigation .bannerContent .button {
+		display:block;
+		position:relative;
+		float:left;
+		color:#fff;
+		width:auto;
+		height:27px;
+		margin:18px 0 0 0;
+		padding:10px 34px 0 34px ;
+		letter-spacing:1px;
+		font-weight:900;
+		clear:none;
+		font-size:12px;
+		text-decoration:none;
+		-webkit-transition: background 0.3s ease-in-out;
+		transition: background 0.3s ease-in-out;
+		}
+	#slides .slides-navigation .bannerContent .button:hover {
+		background:#fff;
+		}
+	#slides .slides-navigation  .bannerContent .textBtn {
+		position:relative;
+		display:block;
+		float:right;
+		color:#fff;
+		width:auto;
+		height:33px;
+		margin:17px 0 0 16px;
+		padding-top:10px;
+		letter-spacing:1px;
+		font-size:12px;
+		font-weight:900;
+		text-shadow:1px 1px 1px #000;
+		-webkit-transition: color 0.3s ease-in-out;
+		transition: color 0.3s ease-in-out;
+		}
+	#slides .slides-navigation .bannerContent .textBtn:hover  {
+		}
+

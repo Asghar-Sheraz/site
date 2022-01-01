@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+body #slides .slides-navigation .bannerContent .projectCallOut {
+    letter-spacing: 0px;
+	line-height:45px;
+}
+.slides-navigation div .vidBtn{
+    margin: 2px 0 0 8px;
+}
+#slides .slides-navigation .bannerContent .projectTitle{
+	width:60%;
+}
