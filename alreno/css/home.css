@@ -1,0 +1,506 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container{
+		min-height:800px;
+		width:100%;
+		float:left;
+		}
+	.container .about{
+		margin:auto;
+		width:100%;
+		float:left;
+		margin-bottom:70px;
+		-webkit-transition: width 0.9s ease-in-out;
+		-moz-transition: width 0.9s ease-in-out;
+		-o-transition: width 0.9s ease-in-out;
+		transition: width 0.9s ease-in-out;
+			}
+	@media (max-width: 1350px) {
+		.container .about{
+			width:96%;
+			margin:0 2% 70px 2%;
+			}
+		}
+		.container .about .heading{
+			text-align:center;
+			}
+			.container .about .heading h1{
+				width:100%;
+				text-shadow:1px 1px 0 #fafafa, 2px 2px 0 #999, 0 0 2px #fafafa;
+				font-size:45px;
+				margin-top:75px;
+				padding-bottom:8px;
+				-webkit-transition: font-size 0.9s ease-in-out;
+				-moz-transition: font-size 0.9s ease-in-out;
+				-o-transition: font-size 0.9s ease-in-out;
+				transition: font-size 0.9s ease-in-out;
+				}
+			.container .about .heading span{
+				background:url(../images/homepage/line.jpg) no-repeat center center;
+				display:inline-block;
+				width:100%;
+				height:1px;
+				}
+			.container .about .heading h2{
+				text-align:center;
+				width:100%;
+				font-size:25px;
+				font-weight:100;
+				color:#888;
+				margin:14px 0 105px 0;
+				}
+		.container .about .content{
+			margin:auto;
+			width:1340px;
+			-webkit-transition: width 0.9s ease-in-out;
+			-moz-transition: width 0.9s ease-in-out;
+			-o-transition: width 0.9s ease-in-out;
+			transition: width 0.9s ease-in-out;
+				}
+		@media (max-width: 1350px) {
+			.container .about .content{
+				width:100%;
+					}
+			}
+			.container .about .content .talk{
+				float: left;
+				width: 50%;
+				-webkit-transition: width 0.9s ease-in-out;
+				-moz-transition: width 0.9s ease-in-out;
+				-o-transition: width 0.9s ease-in-out;
+				transition: width 0.9s ease-in-out;
+					}
+			@media (max-width: 1350px) {
+				.container .about .content .talk{
+					width: 30%;
+						}
+				}
+				.container .about .content .talk li{
+					width: 87%;
+						}
+					.container .about .content .talk h2{
+						margin-bottom:30px;
+							}
+					.container .about .content .talk p{
+						margin-bottom:20px;
+							}
+			.container .about .content .projects{
+				float: left;
+				width: 50%;
+				-webkit-transition: width 0.9s ease-in-out;
+				-moz-transition: width 0.9s ease-in-out;
+				-o-transition: width 0.9s ease-in-out;
+				transition: width 0.9s ease-in-out;
+					}
+			@media (max-width: 1350px) {
+			.container .about .content .projects{
+					width: 70%;
+						}
+				}
+				.container .about .content .projects .title{
+					width:100%
+						}
+					.container .about .content .projects .title h2{
+						margin:0 0  30px 20px;
+							}
+					.container .about .content .projects .icon{
+						border-right: 1px solid #ccc;
+						float: left;
+						height: 94px;
+						margin: 0 21px 50px;
+						width:291px;							
+							}
+					.container .about .content .projects .desktop{
+						display:block;
+						}
+					.container .about .content .projects .mobile{
+						display:none;
+						text-align:center;
+						}
+						.container .about .content .projects .mobile a{
+							width:auto;
+							height:auto;
+							display:inline-block;
+							background-color:#8cc641;
+							font-size:14px;
+							color:#fff;
+							padding:30px;
+							text-decoration:none;
+							border:1px solid #8cc641;
+							-webkit-transition: background-color 0.5s ease-in-out;
+							-moz-transition: background-color 0.5s ease-in-out;
+							-o-transition: background-color 0.5s ease-in-out;
+							transition: background-color 0.5s ease-in-out;
+							}
+						.container .about .content .projects .mobile a:hover{
+							background-color:#FFFFFF;
+							color:#8cc641;
+							}
+						.container .about .content .projects .icon p{
+							float:left;
+								}
+							.container .about .content .projects .icon p a{
+								float: left;
+								width: 193px;
+								height:94px;
+								background-color:#8cc641;
+								background-image:url(../images/shared/aandlrenovationlogo.png);
+								background-repeat:no-repeat;
+								background-position:center center;
+								background-size:30% auto;
+								-webkit-transition: width 0.9s ease-in-out;
+								-moz-transition: width 0.9s ease-in-out;
+								-o-transition: width 0.9s ease-in-out;
+								transition: width 0.9s ease-in-out;
+									}
+								.container .about .content .projects .icon p a img{
+									height: auto;
+									width: 100%;
+									opacity:1;
+
+										}
+								.container .about .content .projects .icon p a img:hover{
+									opacity:0;
+										}
+							.container .about .content .projects .icon p span{
+								float: right;
+								margin: 0 0 0 13px;
+								width: 66px;
+									}
+									
+	.container .beforeAndAfter{
+		margin:auto;
+		width:100%;
+		height:708px;
+		background-image:url(../images/homepage/beforeandafter.jpg);
+		float:left;
+		background-position:center center;
+		-webkit-transition: height 0.9s ease-in-out;
+		-moz-transition: height 0.9s ease-in-out;
+		-o-transition: height 0.9s ease-in-out;
+		transition: height 0.9s ease-in-out;
+			}
+		.container .beforeAndAfter .text{
+			width:100%;
+			float:left;
+				}
+			.container .beforeAndAfter .text h2{
+				width:50%;
+				float:left;
+				font-size:50px;
+				color:#fff;
+				text-align:center;
+				font-weight:100;
+				text-decoration:underline;
+				margin-top:40px;
+					}
+			.container .beforeAndAfter .text .green{
+				color:#8cc641;
+					}
+		.container .beforeAndAfter .circle{
+			width:100%;
+			float:left;
+			text-align:center;
+			margin-top:87px;
+			-webkit-transition: margin-top 0.5s ease-in-out;
+			-moz-transition: margin-top 0.5s ease-in-out;
+			-o-transition: margin-top 0.5s ease-in-out;
+			transition: margin-top 0.5s ease-in-out;
+				}
+			.container .beforeAndAfter .circle img{
+				background-repeat:no-repeat;
+				width:350px;
+				height:Auto;
+				-webkit-transition: width 0.5s ease-in-out;
+				-moz-transition: width 0.5s ease-in-out;
+				-o-transition: width 0.5s ease-in-out;
+				transition: width 0.5s ease-in-out;
+				}
+	.container .help{
+		margin:auto;
+		width:100%;
+		float:left;
+		margin-bottom:70px;
+		text-align:center;
+			}
+		.container .help .heading{
+			}
+			.container .help .heading h1{
+				text-align:center;
+				width:100%;
+				text-shadow:1px 1px 0 #fafafa, 2px 2px 0 #999, 0 0 2px #fafafa;
+				font-size:45px;
+				margin-top:75px;
+				padding-bottom:8px;
+				display:inline-block;
+				-webkit-transition: font-size 0.5s ease-in-out;
+				-moz-transition: font-size 0.5s ease-in-out;
+				-o-transition: font-size 0.5s ease-in-out;
+				transition: font-size 0.5s ease-in-out;
+				}
+			.container .help .heading span{
+				background:url(../images/homepage/line.jpg) no-repeat center center;
+				display:inline-block;
+				width:100%;
+				height:1px;
+				}
+			.container .help .heading h2{
+				text-align:center;
+				width:53%;
+				font-size:25px;
+				font-weight:100;
+				color:#888;
+				margin:13px 0 105px 0;
+				display:inline-block;
+					}
+			.container .help .links{
+				width:100%;
+				text-align:center;
+				}
+			.container .help .links a{
+				width:260px;
+				height:4px;
+				padding:116px 0 39px 0; 
+				background-image:url(../images/shared/check.png);
+				background-position:center 38px;
+				font-family: 'Open Sans Condensed', sans-serif;
+				text-decoration:none;
+				display:inline-block;
+				background-repeat:no-repeat;
+				color:#000000;
+				font-size:22px;
+				-webkit-transition: background-color 0.5s ease-in-out;
+				-moz-transition: background-color 0.5s ease-in-out;
+				-o-transition: background-color 0.5s ease-in-out;
+				transition: background-color 0.5s ease-in-out;
+				}
+			.container .help .links a:hover{
+				background-color:#ddd;
+				}
+	.container .onSite{
+		margin:auto;
+		width:100%;
+		height:708px;
+		background-image:url(../images/homepage/onsite.jpg);
+		float:left;
+		background-position:center center;
+		-webkit-transition: height 0.5s ease-in-out;
+		-moz-transition: height 0.5s ease-in-out;
+		-o-transition: height 0.5s ease-in-out;
+		transition: height 0.5s ease-in-out;
+			}
+		.container .onSite .text{
+			width:100%;
+			float:left;
+			text-align:center;
+				}
+			.container .onSite .text h2{
+				display:inline-block;
+				width:auto;
+				font-size:60px;
+				color:#fff;
+				text-align:center;
+				margin-top:310px;
+				padding: 25px;
+				background-color:#8cc641;
+				font-weight:bold;
+				letter-spacing:2px;
+				-webkit-transition: font-size 0.5s ease-in-out;
+				-moz-transition: font-size 0.5s ease-in-out;
+				-o-transition: font-size 0.5s ease-in-out;
+				transition: font-size 0.5s ease-in-out;
+					}
+
+	.container .estimate{
+		margin:auto;
+		width:100%;
+		float:left;
+		margin-bottom:70px;
+		text-align:center;
+			}
+		.container .estimate .heading{
+			}
+			.container .estimate .heading h1{
+				text-align:center;
+				width:100%;
+				text-shadow:1px 1px 0 #fafafa, 2px 2px 0 #999, 0 0 2px #fafafa;
+				font-size:45px;
+				margin-top:75px;
+				padding-bottom:8px;
+				display:inline-block;
+				-webkit-transition: font-size 0.5s ease-in-out;
+				-moz-transition: font-size 0.5s ease-in-out;
+				-o-transition: font-size 0.5s ease-in-out;
+				transition: font-size 0.5s ease-in-out;
+				}
+			.container .estimate .heading span{
+				background:url(../images/homepage/line.jpg) no-repeat center center;
+				display:inline-block;
+				width:100%;
+				height:1px;
+			}
+			.container .estimate .heading h2{
+				text-align:center;
+				width:100%;
+				font-size:25px;
+				font-weight:100;
+				color:#888;
+				margin:13px 0 25px 0;
+				display:inline-block;
+					}
+			.container .estimate .heading .info{
+				font-weight: bold;
+					}
+				.container .estimate .heading .info a{
+					color:#8cc641;
+					text-decoration:none;
+						}
+				.container .estimate .heading .info a:hover{
+					text-decoration:underline;
+						}
+			.container .estimate .heading .fb{
+				background-image:url(../images/shared/facebook.png);
+				display:inline-block;
+				width:100%;
+				height:87px;
+				background-position:center center;
+				background-repeat:no-repeat;
+				margin:51px 0 19px 0px;
+					}
+			.container .estimate .heading .fb:hover{
+				opacity:0.6;
+					}
+			.container .estimate .heading .fbTalk{
+				display:inline-block;
+				width:22%;
+				}
+	.container .btGraphic{
+		width:100%;
+		height:auto;
+		float:left;
+		text-align:center;
+			}
+		.container .map{
+			background-image:url(../images/homepage/map.jpg);
+			width:100%;
+			height:505px;
+			position:relative;
+			-webkit-transition: background-position 0.5s ease-in-out;
+			-moz-transition: background-position 0.5s ease-in-out;
+			-o-transition: background-position 0.5s ease-in-out;
+			transition: background-position 0.5s ease-in-out;
+				}
+		@media (max-width: 1350px) {
+			.container .map{
+				background-position:-400px;
+				}
+			}
+			.container .map img{
+				position: absolute;
+				left:1135px;
+				top:440px;
+				width:50px;
+				height:auto;				 
+				-webkit-transition: left 0.9s ease-in-out;
+				-moz-transition: left 0.9s ease-in-out;
+				-o-transition: left 0.9s ease-in-out;
+				transition: left 0.9s ease-in-out;
+					}
+		@media (max-width: 1350px) {
+			.container .map img{
+				left:735px;
+				}
+			}
+		.container .callOut{
+			background-color:#8cc641;
+			width:100%;
+			height:180px;
+			padding-top:10px;
+				}
+			.container .callOut img{
+				background-image:url(../images/shared/aandlrenovationlogo.png);
+				background-position:0 34px;
+				background-repeat:no-repeat;
+				background-size:100% auto;
+				width:113px;
+				height:auto;
+				display:inline-block;
+				margin-left:24%;
+				-webkit-transition: background-size, margin 0.5s ease-in-out;
+				-moz-transition: background-size, margin 0.5s ease-in-out;
+				-o-transition: background-size, margin 0.5s ease-in-out;
+				transition: background-size, margin 0.5s ease-in-out;
+					}
+			.container .callOut span{
+				width:auto;
+				height:auto;
+				display:inline-block;
+				margin-left:25px;
+					}
+				.container .callOut span h2{
+					width:auto;
+					height:auto;
+					color:#fff;
+					font-size:80px;
+					-webkit-transition: font-size 0.5s ease-in-out;
+					-moz-transition: font-size 0.5s ease-in-out;
+					-o-transition: font-size 0.5s ease-in-out;
+					transition: font-size 0.5s ease-in-out;
+						}
+		@media (max-width: 1350px) {
+			.container .callOut img{
+				margin-left:4%
+				}
+		
+			}	
+		.container .shirt{
+			background-image:url(../images/homepage/shirt.jpg);
+			width:100%;
+			height:690px;
+			-webkit-transition: height 0.5s ease-in-out;
+			-moz-transition: height 0.5s ease-in-out;
+			-o-transition: height 0.5s ease-in-out;
+			transition: height 0.5s ease-in-out;
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

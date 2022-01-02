@@ -1,0 +1,326 @@
+@charset "utf-8";
+/* CSS Document */
+/*banner*/
+#slides .bannerLogo{
+	left:25%;
+	top:7%;
+	width:200px;
+	}
+body .header{
+	display:block;
+	overflow:hidden;
+	padding:14px 0 16px 0;
+	width:100%;
+	}
+	.header .menu{
+		display:none;
+		}
+	.header .menuMobile{
+		display:none;
+		height:auto;
+		margin:50px 1% 0 1%;
+		border-top:1px solid #fff;
+		width:98%
+		}
+		.header .menuMobile li{
+			border-right: 1px solid #aad177;
+			float: left;
+			height: 50px;
+			margin: 21px 0 0;
+			padding: 28px 0 0;
+			text-align: center;
+			width: 49%;			
+			}
+		.header .menuMobile .m1{
+			border-bottom: 1px solid #aad177;
+			}
+		.header .menuMobile .m2{
+			border-right:none;
+			border-bottom: 1px solid #aad177;
+			}
+		.header .menuMobile .m3{
+			margin-top:0;
+			border-bottom: 1px solid #aad177;
+			}
+		.header .menuMobile .m4{
+			margin-top:0;
+			border-right:none;
+			border-bottom: 1px solid #aad177;
+			}
+		.header .menuMobile .m5{
+			margin-top:0;
+			}
+			.header .menuMobile li a{
+				}
+			.header .menuMobile .lang{
+				float: left;
+				height: 50px;
+				text-align: center;
+				border:none;
+				margin:0;			
+				}
+			.header .menuMobile li a{
+				}
+	.header .menuMobileIgnite{
+		display:block;
+		float:right;
+		width:33px;
+		height:33px;
+		margin: 13px 14px 0 0;
+		cursor:pointer;
+		background-image:url(../images/shared/mobileMenu_icon.png);
+		background-size:24px auto;
+		background-repeat:no-repeat;
+		}
+	.header .mobileLogo{
+		display:block;
+		float:left;
+		width:auto;
+		height:auto;
+		margin: 18px 0 8px 14px;
+		}
+		.header .mobileLogo img{
+			width:27px;
+			height:auto;
+			margin-top:-1px; 
+			}
+/*home*/
+.container{
+	width:100%;
+	}
+.container .about .heading h1{
+	font-size:33px;
+	background-position:center 63px;
+	margin-bottom:0;
+	padding-bottom:11px;
+	}	
+.container .about .heading h2{
+	margin-bottom:55px;
+	}	
+.container .about .content{
+	width:100%;
+	}	
+.container .about .content .talk{
+	width:100%;
+	}
+.container .about .content .talk h2{
+	border-bottom:1px solid #ccc;
+	padding-bottom:12px;
+	margin-bottom:12px;
+	}	
+.container .about .content .talk li{
+	width:100%;
+	}
+.container .about .content .projects{
+	width:100%;
+	margin-top:30px;
+	
+	}
+.container .about .content .projects .title h2{
+	margin-left:0;
+	border-bottom:1px solid #ccc;
+	padding-bottom:12px;
+	margin-bottom:12px;	
+	}
+.container .about .content .projects .icon{
+	margin:0 0 50px 0;
+	border-right:none;
+	height:auto;
+	width:100%;
+	}
+.container .about .content .projects .icon p a{
+	width:100%;
+	height:auto;
+	}
+.container .about .content .projects .icon p span{
+	float:left;
+	margin:20px 0 0 0;
+	width:auto; 
+	}
+.container .about .content .projects .desktop{
+	display:none;
+	}
+.container .about .content .projects .mobile{
+	display:block;
+	}
+	
+.container .about .content .projects .icon p a img{
+	float:left;
+	}			
+.container .beforeAndAfter{
+	height:500px;
+	}
+.container .beforeAndAfter .circle{
+	margin-top:40px;
+	}
+.container .beforeAndAfter .circle img{
+	width:250px
+	}
+.container .about{
+	margin:0 2% 30px 2%;
+	width:96%;
+	}
+.container .help .links a{
+	width:49%;
+	}
+.container .help .heading h1{
+	font-size:33px;
+	}	
+.container .help .heading h2{
+	margin-bottom:55px;
+	width:96%
+	}
+.container .beforeAndAfter .circle{
+	margin-top:60px;
+	}
+.container .onSite{
+	height:460px;
+	background-position: -530px 0;
+	}
+container .estimate .heading h1{
+	font-size:33px;
+	}	
+.container .onSite .text h2{
+	margin-top:190px;
+	font-size:30px;
+	}
+.container .estimate .heading .fbTalk{
+	width:65%;
+	}
+.container .estimate .heading h1{
+	font-size:33px;
+	}	
+.container .estimate .heading h2{
+	width:98%;
+	}
+.container .btGraphic{
+	overflow:hidden;
+	}	
+.container .map{
+	height:400px;
+	background-position:-1010px ;
+	}
+.container .map img{
+	left:124px;
+	top:332px;
+	}
+.container .callOut{
+	text-align:left;
+	height:auto;
+	padding:30px 0 31px 0;
+	float:left;
+	}	
+.container .callOut img{
+	background-position:12px 0;
+	margin:0 0 0 0;
+	float:left;
+	height:60px;
+	background-size:71% auto;	
+	}
+.container .callOut span{
+	display:block;
+	float:left;
+	margin:3px 0 0 0;
+	}	
+.container .callOut span h2{
+	font-size: 61px;
+    line-height: 60px;
+	padding: 0 0 0 7px;
+	}
+
+.container .shirt{
+	height:400px;
+	background-position:-166px 0;
+	background-size:1227px auto;
+	float:left;
+		}
+/*projects*/
+.container .projects .projectsContent ul li{
+	width:100%;
+	}		
+.container .projects .projectsContent ul li h2{
+	width:100%
+	}		
+.container .projects .projectsContent ul li img{
+	width:100%;
+	margin-bottom:42px;
+	}		
+.container .projects .projectsContent ul .workType span{
+	width:100%;
+	margin-left:0;
+	margin-right:0;
+	}
+.container .projects .projectsContent ul .workType img{
+	width:100%;
+	margin:0 0 50px 0;
+	}
+.container .projects .projectsContent ul .projectsMain ul .links a{
+	width:49%
+	}	
+/*our servicesr*/		
+.container .services .servicesContent {
+    width: 100%;
+}
+.container .services .servicesContent ul li {
+    float: left;
+    padding: 0 0 28px;
+    width: 100%;
+	min-height:50px;
+}
+/*testimonials*/
+.container .testimonials .testimonialsContent{
+	width:100%;
+	}
+.container .testimonials .heading h1{
+	font-size:33px;
+	}
+/*contact*/
+.container .contact .contactContent{
+	width:100%
+	}
+.container .contact .contactContent ul li textarea{
+	width:100%;
+	}		
+/*footer*/	
+.container .projects .heading h1{
+	font-size:33px;
+	}
+.container .footer li{
+	width:100%;
+	padding:33px 0 0 0;
+	float:left;
+	height:auto;
+	}
+
+.container .footer li .logo {
+    float: left;
+    height: 67px;
+    text-align: center;
+    width: 100%;
+}
+.container .footer li .logo img{
+	width:50px;
+	}
+.container .footer li a {
+    color: #888;
+    float: left;
+    font-size: 12px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+	margin:0
+}
+.container .footer .social{
+	display:none;
+	}
+.container .footer .social a {
+    display: inline-block;
+    height: 48px;
+    margin-right: 15px;
+    width: 30%;
+}
+.container .footer .ninja{
+	float:left;
+	padding-top:35px;
+}

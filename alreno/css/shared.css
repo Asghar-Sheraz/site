@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0	
+	}
+ul, li {
+	margin:0px;
+	padding:0px;
+	font-family: 'Open Sans', sans-serif;
+	display:block;
+	color:#666;
+	font-size:14px;
+	}
+h1, h2, h3 {
+	margin:0;
+	padding:0;
+	display:block;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#000;
+	letter-spacing:1px;
+	}
+textarea{
+	font-family: 'Open Sans Condensed', sans-serif;
+	}	
+input{
+	font-family: 'Open Sans Condensed', sans-serif;
+	-webkit-appearance: none;
+    -webkit-border-radius: 0;
+	}	
+h2{
+	font-size:22px;
+	}
+p {
+	margin:0px;
+	padding:0px;
+	font-family: 'Open Sans', sans-serif;
+	color:#666;
+	font-size:14px;
+	}
+a{
+	letter-spacing:1px;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+	}
+img{
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+	}
+/*closed */
+
+/*global class for php*/
+
+.hide{
+	display:none;
+	}
+.show{
+	display:block;
+	}
+
+/*closed */
+
+
+.header{
+	height:auto;
+	padding:14px 0 0 0;
+	background-color:#8cc641;
+	width:100%;
+	border-bottom:1px solid #fff;
+	}
+	.menu{
+		margin:auto;
+		width:568px;
+		display:block;
+		height:33px;	
+		}
+		.header li{ 
+			float:left;
+			width:auto;
+			margin:0 26px;
+			}
+			.header li a img{
+				width:27px;
+				height:auto;
+				margin-top:-1px; 
+				}
+			.header li a{ 
+				color:#fff;
+				font-size:12px;
+				text-decoration:none;
+				}
+			.header li a:hover{
+				opacity:0.6; 
+				}
+		.header .lang{ 
+			width:auto;
+			height:auto;
+			}
+			.header .lang a{ 
+				width:auto;
+				background-color:#fff;
+				color:#8cc641;
+				height:auto;
+				padding:3px 10px;
+				font-weight:bold;
+				}
+	.menuMobile{
+		display:none;
+		}
+	.mobileLogo{
+		display:none;
+		}
+	.menuMobileIgnite{
+		display:none;
+		}
+/*footer*/		
+	.container .footer{
+		width:100%;
+		height:auto;
+		float:left;
+		border-top:solid #ccc 1px;
+			}
+		.container .footer li {
+			float: left;
+			height: 69px;
+			padding: 50px 0 0 41px;
+			text-align: left;
+			width: 50%;
+			}
+				.container .footer li .logo{
+				float:left;
+				height:27px;
+				width:27px;
+					}
+				.container .footer li .logo img{
+					width:100%;
+					height:auto;
+						}
+			.container .footer li a{
+				width:auto;
+				height:auto;
+				margin-left:25px;
+				text-decoration:none;
+				color:#888;
+				font-size:12px;
+					}
+			.container .footer li a:hover{
+				opacity:0.6;
+					}
+		.container .footer .social {
+			float: right;
+			height: 69px;
+			padding: 42px 37px 0;
+			width: 20%;
+			}
+			.container .footer .social a {
+				float: right;
+				height: 48px;
+				margin-left: 0;
+				margin-right: 15px;
+				width: 48px;
+				opacity:1.0;
+				}
+			.container .footer .social a:hover{
+				opacity:1.0;
+				}
+				.container .footer .social a img{
+					opacity:1.0;
+					}
+		.container .footer .ninja {
+			width:100%;
+			text-align:center;
+			background:#8cc641;
+			height:50px;
+			padding-top:25px;
+			padding-left:0;
+			}
+			.container .footer .ninja a{
+				display:inline-block;
+				color:#fff;
+				font-size:12px;
+				letter-spacing:2px;
+				word-spacing:2px;
+				}

@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+/*banner*/
+#slides .bannerLogo{
+	left:37%;
+	top:37%;
+	width:260px;
+	}
+/*menu*/
+body .header{
+	display:block;
+	overflow:hidden;
+	padding:14px 0 16px 0;
+	width:100%;
+	}
+	.header .menu{
+		display:none;
+		}
+	.header .menuMobile{
+		display:none;
+		height:auto;
+		margin:50px 1% 0 1%;
+		border-top:1px solid #fff;
+		width:98%
+		}
+		.header .menuMobile li{
+			border-right: 1px solid #aad177;
+			float: left;
+			height: 50px;
+			margin: 21px 0 0;
+			padding: 28px 0 0;
+			text-align: center;
+			width: 16.5%;			
+			}
+			.header .menuMobile li a{
+				}
+			.header .menuMobile .lang{
+				float: left;
+				height: 50px;
+				text-align: center;
+				width: 16.5%;
+				border:none;			
+				}
+			.header .menuMobile li a{
+				}
+	.header .menuMobileIgnite{
+		display:block;
+		float:right;
+		width:33px;
+		height:33px;
+		margin: 13px 14px 0 0;
+		cursor:pointer;
+		background-image:url(../images/shared/mobileMenu_icon.png);
+		background-size:24px auto;
+		background-repeat:no-repeat;
+		}
+	.header .mobileLogo{
+		display:block;
+		float:left;
+		width:auto;
+		height:auto;
+		margin: 18px 0 8px 14px;
+		}
+		.header .mobileLogo img{
+			width:27px;
+			height:auto;
+			margin-top:-1px; 
+			}
+
+/*menu*/
+.container{
+	width:100%;
+	}
+.container .about .heading h2{
+	margin-bottom:95px;
+	}	
+.container .about .content{
+	width:100%;
+	}	
+.container .about .content .talk{
+	width:100%;
+	}
+.container .about .content .talk li{
+	width:100%;
+	}
+.container .about .content .projects{
+	width:100%;
+	margin-top:30px;
+	}
+.container .about .content .projects .title h2{
+	margin-left:0;
+	}
+.container .about .content .projects .icon{
+	margin:0 30px 50px 0;
+	}
+.container .beforeAndAfter{
+	height:500px;
+	}
+.container .beforeAndAfter .circle img{
+	width:250px
+	}
+.container .about{
+	margin:0 2% 30px 2%;
+	width:96%;
+	}
+.container .help .links a{
+	width:24.5%;
+	}
+.container .help .heading h2{
+	margin-bottom:55px;
+	width:96%
+	}
+.container .beforeAndAfter .circle{
+	margin-top:18px;
+	}
+.container .onSite{
+	height:460px;
+	}
+.container .onSite .text h2{
+	margin-top:165px;
+	}
+.container .estimate .heading .fbTalk{
+	width:52%;
+	}
+.container .estimate .heading h2{
+	width:98%;
+	}
+.container .map{
+	height:400px;
+	background-position:-780px;
+	}
+.container .map img{
+	left:350px;
+	top:327px;
+	}
+.container .callOut{
+	text-align:left;
+	height:115px;
+	padding:30px 0 0 5%;
+	}	
+.container .callOut img{
+	background-position:0 0;
+	margin:0 0 0 0;
+	float:left;
+	height:80px;
+	background-size:80% auto;	
+	}
+.container .callOut span{
+	display:block;
+	float:left;
+	margin:3px 0 0 0
+	}	
+.container .callOut span h2{
+	font-size:407%;
+	}
+	@media (max-width: 800px) {		
+		.container .callOut span h2{
+			font-size:376%;
+			}
+		.container .callOut img{
+			background-size:76% auto;
+			}	
+		}	
+	@media (max-width: 700px) {		
+		.container .callOut span h2{
+			font-size:341%;
+			}
+		.container .callOut img{
+			background-size:70% auto;
+			}
+		.container .callOut{
+			height:102px;
+			}
+				
+		}	
+.container .shirt{
+	height:400px;
+		}
+		
+/*our servicesr*/		
+.container .services .servicesContent {
+    width: 100%;
+}
+/*testimonials*/
+.container .testimonials .testimonialsContent{
+	width:100%;
+	}
+/*contact*/
+.container .contact .contactContent{
+	width:100%
+	}
+.container .contact .contactContent ul li textarea{
+	width:60%;
+	}		
+/*footer*/
+.container .footer li{
+	width:auto;
+	padding:50px 0 0 0;
+	}
+.container .footer .social{
+	padding:42px 0 0 0;
+	}
+
+
+
+
+
+
