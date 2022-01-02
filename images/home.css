@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bodyStyles{
+	margin:0;
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#aaa;
+}
+.main{
+	background:url(../images/bg.jpg);
+	width:100%;
+	height:auto;
+	float:left;
+	background-color:#FFFFFF;
+	background-repeat:no-repeat;
+		
+	}
+	.bannerContent{
+		height:335px;
+		width:665px;
+		float:left;
+		}
+		.bannerContent img{
+			}
+		.bannerContent a{ 
+			display:block;
+			color:#FFF;
+			font-size:36px;
+			height:66px;
+			width:236px;
+			background:url(../images/donateBtn.png);
+			padding:26px 0 0 0;
+			text-decoration:none;
+			text-align:center;
+			margin: 35px 0 0 15px;
+			}  
+		 .bannerContent a:hover{ 
+			display:block;
+			background:url(../images/donateBtn.png)  0px 88px ;
+			}  
+	.photoContent{
+		height:335px;
+		width:305px;
+		float:left;
+		border:1px #000000 solid;
+		}
+	.item1{
+		height:auto;
+		width:301px;
+		float:left;
+		clear:left;
+		}
+		.item1 h2{
+			color:#2d9eac;
+			display:block;
+			padding: 0 0 0 38px;
+			margin:0px;
+			font-size:30px;
+			}
+		.item1 div{
+			background:url(../images/bgIce.jpg);
+			width:300px;
+			height:300px;
+			}
+			.item1 div div{
+				width:301px;
+				min-height:110px;
+				height:auto;
+				background:url(../images/greenTik.png) -2px -16px;
+				background-repeat:no-repeat;
+				padding:10px 0 0 35px;
+				}
+				.item1 div div .month{
+					width:auto;
+					color:#2d9eac;
+					font-size:28px;
+					font-weight:bold;
+					float:left;
+					padding: 7px 5px 0 0;
+					}
+				.item1 div div .date{
+					width:auto;
+					float:left;
+					}
+				.item1 div div .date p{
+					display:block;
+					padding:0px;
+					margin:0px;
+					color:#2d9eac;
+					font-size:12px;
+					}
+				.item1 div div .date .p1{
+					font-size:22px;
+					margin: 4px 0 0 0;
+					}
+				.item1 div div .date .p2{
+					margin: -6px 0 0 0;
+					}
+				.item1 div div .desc{
+					float:left;
+					display:block;
+					font-size:14px;
+					padding: 8px 0 0 15px;
+					width:120px;
+					height:auto;
+					}
+				.item1 div div .link a{
+					float:left;
+					display:block;
+					font-size:14px;
+					padding: 8px 0 0 15px;
+					width:auto;
+					height:auto;
+					}
+				 .bannerContent a:hover{ 
+					display:block;
+					text-decoration:underline;
+					}  
+
+	.item2{
+		height:285px;
+		width:300px;
+		float:left;
+		border: #FF0000 1px solid;
+		}
+	.item3{
+		height:285px;
+		width:300px;
+		float:left;
+		border: #FF0000 1px solid;
+		}
+	.item4{
+		height:285px;
+		width:300px;
+		float:left;
+		border: #FF0000 1px solid;
+		}

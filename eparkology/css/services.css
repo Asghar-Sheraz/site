@@ -1,0 +1,74 @@
+.services{
+		width:100%;
+		height: 2250px;
+	}	
+	
+.services .servicesContent{
+	   	width:960px; 		
+		margin:0 auto;
+		heigth: auto;
+	}	
+.services .servicesContent ul{
+		color:#858384;
+		font-size:14px;
+		padding:0 0 0 0 ;
+		width:93%;
+	}	
+.services .servicesContent ul .header{
+		background:#eee;
+		color:#858384;
+		padding:0;
+		min-height:100px;
+		margin-top:60px;
+	}	
+.services .servicesContent ul .header h2{
+		padding:0;
+		margin: 20px 0 0 26px;
+		font-weight:normal;
+		font-size:40px;
+	}	
+.services .servicesContent ul li{
+	   	width:100%;
+		float:left;
+		border-bottom: #eee solid 5px;
+		list-style:none;
+		margin-top:25px;
+		background:url(../images/servicesIcon1.jpg) no-repeat  625px -15px;
+		padding: 0 0 30px 23px;
+		min-height:200px;
+		height:auto;
+	}	
+.services .servicesContent ul li .pointers li{
+	   	width:100%;
+		float:left;
+		height:auto;
+		border-bottom: none;
+		list-style: disc;
+		margin:0px 0 0 0;
+		background: none;
+		margin:5px 0 0 35px;
+		padding:0 0 0px 23px;
+		min-height:20px;
+	}	
+.services .servicesContent ul li h2{
+		color: #4C4C4C;
+		font-size: 30px;
+		font-weight: normal;
+		margin: 0;
+		width:600px;
+		margin-bottom:5px;
+	}	
+.services .servicesContent ul li p{
+		color: #858384;
+		font-size: 14px;
+		margin: 0;
+		width:577px;
+	}
+.services .servicesContent ul .flip2{
+		padding-left:334px;
+		width:64%;
+	}	
+.services .servicesContent ul .flip2 h2{
+	}	
+.services .servicesContent ul .flip2  p{
+	}
