@@ -1,0 +1,126 @@
+
+.mainContainer{
+	overflow:hidden;
+	}
+.mainContainer ul .contentCont .content{
+	width:100%;
+	}
+.mainContainer ul .contentCont .content li h1{
+	font-size:64px;
+	-webkit-transition: font-size 0.5s ease-in-out;
+	-moz-transition: font-size 0.5s ease-in-out;
+	-o-transition: font-size 0.5s ease-in-out;
+	transition: font-size 0.5s ease-in-out;
+	}
+	@media (max-width: 400px) {		
+	.mainContainer ul .contentCont .content li h1{
+		font-size:50px;
+		}
+	}	
+
+
+.mainContainer ul .raceInfo ul .upcomingRaces{
+	width:88%;
+	margin:0 6%	
+	}	
+	.mainContainer ul .raceInfo ul .upcomingRaces ul{
+	width:100%;
+	}
+.mainContainer ul .raceInfo ul .pastRaces{
+	width:88%;
+	margin:0 6%	
+	}	
+	.mainContainer ul .raceInfo ul .pastRaces ul{
+	width:100%;
+	}
+.mainContainer ul .menuCont{
+	
+	}	
+.mainContainer ul .menuCont .menu{
+	width:100%
+	}
+.mainContainer ul .menuCont .menu .logo{
+	width:100%;
+	text-align:center;
+	padding:0;
+	}
+
+.mainContainer ul .menuCont .menu .logo img{
+	width:50%;
+}
+.mainContainer ul .contentCont .content .donate{
+	margin:43px 0 116px 0
+	
+	}	
+.mainContainer ul .contentCont .content .donate img{
+	padding:0;
+	width:46%;
+	margin:10px 1% 0 3%; 
+	}	
+.mainContainer ul .contentCont .content .donate a{
+	width:46%;
+	margin-left: 1%;
+	}	
+.mainContainer ul .footer ul li img{
+	width:60%;
+	}	
+.mainContainer ul .footer ul li a{
+	font-size:45px;
+	}	
+	
+.mainContainer ul .menuCont .menu{
+	width:100%;	
+}	
+.mainContainer ul .menuCont .menu li{
+	margin:18px 5% 0;
+	text-align:center;
+	width:40%;
+	padding:3% 0 2px 0;
+	}
+.mainContainer ul .menuCont .menu .GPS{
+	margin-bottom:11px;
+	padding-bottom:0px;
+	width:90%;
+	}	
+.mainContainer ul .contentCont .content li .contactMe{
+font-size:40px;
+margin-top:100px
+
+}	
+
+	
+	@media (max-width: 400px) {		
+.mainContainer ul .contentCont .content li .contactMe{
+font-size:25px;
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+			

@@ -1,0 +1,503 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	background-color:#e0e0e0;	
+	}
+ul, li {
+	margin:0px;
+	padding:0px;
+	font-family: 'Open Sans', sans-serif;
+	display:block;
+	color:#666;
+	font-size:14px;
+	}
+h1, h2, h3 {
+	margin:0;
+	padding:0;
+	display:block;
+	font-family: 'Lobster', cursive;
+	letter-spacing:-2px;
+	color:#539e92;
+	}
+textarea{
+	font-family: 'Open Sans Condensed', sans-serif;
+	}	
+input{
+	font-family: 'Open Sans Condensed', sans-serif;
+	-webkit-appearance: none;
+	}	
+h2{
+	}
+p {
+	margin:0px;
+	padding:0px;
+	font-family: 'Open Sans', sans-serif;
+	color:#666;
+	font-size:14px;
+	}
+a{
+	letter-spacing:1px;
+	color:#539e92;
+	text-decoration:none;
+	font-weight:bold;
+	opacity:1.0;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+	}
+a:hover{
+	opacity:0.6
+	}
+img{
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+	}
+/*closed */
+
+
+.mainContainer{
+	width:100%;
+	min-height:800px;
+	height:auto;
+
+	}
+.mainContainer ul .menuCont{
+    background-color: #539e92;
+    border-bottom: 1px solid #fff;
+    height: auto;
+    padding: 14px 0 0;
+    width: 100%;
+	overflow:hidden;
+	}
+	.mainContainer ul .menuCont .menu{
+		display: block;
+		height: 70px;
+		margin: auto;
+		width: 880px;
+		}
+		.mainContainer ul .menuCont .menu li{ 
+			float:left;
+			width:auto;
+			padding:18px 5% 0 5%;
+			height:39px;
+			}
+		.mainContainer ul .menuCont .menu .GPS{
+			background-color:#2a897a; 
+			}
+		.mainContainer ul .menuCont .menu .logo{
+			width:116px;
+			height:auto;
+			margin:0px;
+			padding:0;
+			}
+			.mainContainer ul .menuCont .menu .logo img{
+				width:100%;
+				height:auto
+				}
+
+				.mainContainer ul .menuCont .menu li a img{
+					width:27px;
+					height:auto;
+					margin-top:-1px; 
+					}
+				.mainContainer ul .menuCont .menu li a{ 
+					color:#fff;
+					font-size:12px;
+					text-decoration:none;
+					font-weight:600;
+					}
+				.mainContainer ul .menuCont .menu li a:hover{
+					opacity:0.6; 
+					}
+				.mainContainer ul .menuCont .menu .lang{ 
+					width:auto;
+					height:auto;
+					}
+					.mainContainer ul .menuCont .menu .lang a{ 
+						width:auto;
+						background-color:#fff;
+						color:#539e92;
+						height:auto;
+						padding:3px 10px;
+						font-weight:bold;
+						}
+	.mainContainer ul .contentCont{
+		height: auto;
+		width: 100%;
+		position:relative;
+		z-index:2;
+	}
+		.mainContainer ul .contentCont .content{
+			display:block;
+			margin:auto;
+			width:1000px;
+		}
+			.mainContainer ul .contentCont .content li{
+				float:left;
+				width:98%;
+				overflow:hidden;
+				margin:0 1%
+			}
+				.mainContainer ul .contentCont .content li h1{
+					font-size:100px;
+					text-shadow:1px 1px 0 #fafafa, 1px 2px 0 #539e92, 0 0 2px #fafafa;
+					margin-top:64px;
+					width:auto;
+					text-align:center;
+					padding-bottom:3px;
+					-webkit-transition: font-size 0.5s ease-in-out;
+					-moz-transition: font-size 0.5s ease-in-out;
+					-o-transition: font-size 0.5s ease-in-out;
+					transition: font-size 0.5s ease-in-out;
+
+				}
+				.mainContainer ul .contentCont .content li .contactMe{
+					font-size:66px;
+					margin-top:210px;
+					-webkit-transition: font-size 0.5s ease-in-out;
+					-moz-transition: font-size 0.5s ease-in-out;
+					-o-transition: font-size 0.5s ease-in-out;
+					transition: font-size 0.5s ease-in-out;
+
+				}
+				.mainContainer ul .contentCont .content .startedBiking{
+					height:45px;
+					margin-top:40px;
+				}
+				.mainContainer ul .contentCont .content .startedBiking p{
+					float:left;
+					text-align:center;
+					margin:0;
+					padding:0;
+					font-family: 'Open Sans Condensed', sans-serif;
+					color:#969696;
+					font-size:36px;
+				}
+				.mainContainer ul .contentCont .content .startedBiking .dateName{
+					text-align:center;
+					width:100%
+				}
+				.mainContainer ul .contentCont .content .startedBiking .dateNum{
+					text-align:left;
+					width:48%;
+					padding: 0 0 0 1%
+				}
+				.mainContainer ul .contentCont .content li .timer-area{
+					height:10px;
+					padding:29px 0 0 0;
+					-webkit-transition: width 0.5s ease-in-out;
+					-moz-transition: width 0.5s ease-in-out;
+					-o-transition: width 0.5s ease-in-out;
+					transition: width 0.5s ease-in-out;
+
+				}
+					.mainContainer ul .contentCont .content li .timer-area li{
+						display: flex;
+						margin:auto;
+						width:100%;
+						padding:0 12px;
+					}
+						.mainContainer ul .contentCont .content li .timer-area li #countdown{
+							margin:auto;
+						}
+							.mainContainer ul .contentCont .content li .timer-area li #countdown li{
+								width:auto;
+							}
+								.mainContainer ul .contentCont .content li .timer-area li #countdown li p{
+									padding:0px;
+									font-family: 'Open Sans Condensed', sans-serif;
+									color:#969696;
+									font-size:36px;
+									margin:0;
+								}
+								.mainContainer ul .contentCont .content li .timer-area li #countdown li .num{
+									font-family: 'Open Sans Condensed', sans-serif;
+									font-size:36px;
+									color:#969696;
+									width:auto;
+								}
+								.mainContainer ul .contentCont .content li .timer-area li #countdown li .text{
+									font-size:14px;
+									padding:9px 2px 0 3px;
+								}
+	
+				.mainContainer ul .contentCont .content  .raceHighlites{
+					font-size:26px;
+					margin-top:3px;
+					text-align:center;
+					padding:2px 0 0 0;
+					background-image:url(../images/line_1.jpg);
+					background-position:center top;
+					background-repeat:no-repeat;  
+					font-family: 'Open Sans Condensed', sans-serif;
+					font-style:normal;
+					color:#969696;
+					word-spacing:6px;
+				}
+				.mainContainer ul .contentCont .content li p{
+					font-size:18px;
+					text-align:left;
+					font-weight: 100;
+					line-height:41px;
+					padding:32px 0 0 146px;
+					width:75%;
+				}
+				.mainContainer ul .contentCont .content .welcomeText {
+				}
+					.mainContainer ul .contentCont .content .welcomeText ul{
+					}
+						.mainContainer ul .contentCont .content .welcomeText ul li{
+							word-spacing:1px;
+						}
+						.mainContainer ul .contentCont .content .welcomeText ul .paraOne{
+							margin:68px 0 0 0 ;
+							text-align:left;
+							width:80%;
+							padding:0 10%; 
+						}
+							.mainContainer ul .contentCont .content .welcomeText ul .paraOne h1{
+								font-size:27px;
+								margin:0 0 9px 0;
+								color:#777;
+								text-shadow:none;
+								width:100%;
+								text-align:left;	
+							}
+							.mainContainer ul .contentCont .content .welcomeText ul .paraOne p{
+								padding:0;
+								float:left;
+								text-align:left;
+								font-size:16px;
+								width:100%;
+							}
+			.mainContainer ul .contentCont .content .donate{
+				width:100%;
+				margin:43px 0 0 0;
+				}
+				.mainContainer ul .contentCont .content .donate img{
+					float:left;
+					padding: 0 0 0 27%;
+					width:204px;
+					-webkit-transition: padding 0.5s ease-in-out;
+					-moz-transition: padding 0.5s ease-in-out;
+					-o-transition: padding 0.5s ease-in-out;
+					transition: padding 0.5s ease-in-out;
+					}
+				.mainContainer ul .contentCont .content .donate a{
+					background-color:#0059af;
+					float:left;
+					text-align:center;
+					width:180px;
+					color:#fff;
+					font-size:20px;
+					font-weight:bold;
+					text-decoration:none;
+					margin:23px 0 0 24px;
+					padding:15px 0 0 0;
+					height:46px;
+					opacity:1.0
+					}
+				.mainContainer ul .contentCont .content .donate a:hover{
+					opacity:0.6;
+					}
+	.mainContainer ul .animationCont{
+		height: auto;
+		width: 100%;
+		background-image:url(../images/map.jpg);
+		background-position:top center;
+		float:left;
+		background-size:100%;
+		background-repeat: no-repeat;
+		position:relative;
+		z-index:1;
+		margin:-66px 0 0 0;
+		}
+		.mainContainer ul .animationCont .animGif{
+			margin:-60px 0 0 0 ;
+			width:100%;
+			-webkit-transition: margin 0.5s ease-in-out;
+			-moz-transition: margin 0.5s ease-in-out;
+			-o-transition: margin 0.5s ease-in-out;
+			transition: margin 0.5s ease-in-out;
+			}
+		@media (max-width: 1447px) {		
+			.mainContainer ul .animationCont .animGif{
+				margin:-30px 0 0 0 ;
+				}
+			}	
+	.mainContainer ul .raceInfo{
+		width:100%;
+		float:left;
+		position:relative;
+		z-index:3;
+		margin:-38px 0 0 0;
+		overflow:hidden;
+		}
+		.mainContainer ul  .raceInfo ul{
+			width:1447px;
+			height:auto;
+			margin:auto;
+			}
+		@media (max-width: 1447px) {		
+			.mainContainer ul  .raceInfo ul{
+				width:100%;
+				}
+			}	
+			.mainContainer ul  .raceInfo ul li{
+				}
+
+			.mainContainer ul  .raceInfo ul .upcomingRaces{
+				width:347px;
+				float:left;
+				margin:0 0 0 100px;
+				}
+			@media (max-width: 1447px) {		
+				.mainContainer ul  .raceInfo ul .upcomingRaces{
+					width:100%;
+					margin:0 0 0 6%;
+					}
+				}	
+				.mainContainer ul  .raceInfo ul .upcomingRaces h2{
+					font-size:50px;
+					color:#cf3333;
+					width:100%;
+					}
+				@media (max-width: 1447px) {		
+					.mainContainer ul  .raceInfo ul .upcomingRaces h2{
+						margin:50px 0 0 0;
+						}
+					}	
+				.mainContainer ul  .raceInfo ul .upcomingRaces ul{
+					width:347px;
+					border-bottom:4px double #fff;
+					float:left;
+					margin:0;
+					min-height:210px;
+					}
+				@media (max-width: 1447px) {		
+					.mainContainer ul  .raceInfo ul .upcomingRaces ul{
+						width:28%;
+						margin:0 3% 0 0;
+						}
+					}	
+					.mainContainer ul  .raceInfo ul .upcomingRaces ul li{
+						font-size:30px;
+						font-family: 'Open Sans Condensed', sans-serif;
+						width:347px;
+						}
+					@media (max-width: 1447px) {		
+						.mainContainer ul  .raceInfo ul .upcomingRaces ul li{
+							width:100%;
+							}	
+						}	
+					.mainContainer ul  .raceInfo ul .upcomingRaces ul .date{
+						color:#cf3333;
+						margin:19px 0;
+						}
+					.mainContainer ul  .raceInfo ul .upcomingRaces ul .raceName{
+						}
+					.mainContainer ul  .raceInfo ul .upcomingRaces ul .link{
+						}
+						.mainContainer ul  .raceInfo ul .upcomingRaces ul .link a{
+							float:right;
+							font-size:18px;
+							margin-top:20px;
+							margin:11px 0 3px 0;
+							text-decoration:none;
+							}
+
+			.mainContainer ul  .raceInfo ul .pastRaces{
+				width:900px;
+				float:left;
+				margin:0 0 0 100px;
+				}
+			@media (max-width: 1447px) {		
+				.mainContainer ul  .raceInfo ul .pastRaces{
+					width:100%;
+					float:left;
+					margin:0 0 0 5%;
+					}
+				}	
+				.mainContainer ul  .raceInfo ul .pastRaces h2{
+					font-size:50px;
+					color:#ff7e00;
+					width:100%;
+					}
+				@media (max-width: 1447px) {		
+					.mainContainer ul  .raceInfo ul .pastRaces h2{
+						margin:50px 0 0 0;
+						}
+					}	
+				.mainContainer ul  .raceInfo ul .pastRaces ul{
+					width:347px;
+					border-bottom:4px double #fff;
+					float:left;
+					margin: 0  100px 0 0;
+					min-height:210px;
+					}
+				@media (max-width: 1447px) {		
+					.mainContainer ul  .raceInfo ul .pastRaces ul{
+							width:28%;
+							margin:0 3% 0 0;
+						}
+					}	
+					.mainContainer ul  .raceInfo ul .pastRaces ul li{
+						font-size:30px;
+						font-family: 'Open Sans Condensed', sans-serif;
+						width:347px;
+						}
+					@media (max-width: 1447px) {		
+						.mainContainer ul  .raceInfo ul .pastRaces ul li{
+							width:100%;
+							}
+						}	
+					.mainContainer ul  .raceInfo ul .pastRaces ul .date{
+						color:#ff7e00;
+						margin:19px 0;
+						}
+					.mainContainer ul  .raceInfo ul .pastRaces ul .raceName{
+						}
+					.mainContainer ul  .raceInfo ul .pastRaces ul .link{
+						}
+						.mainContainer ul  .raceInfo ul .pastRaces ul .link a{
+							float:right;
+							font-size:18px;
+							margin-top:20px;
+							margin:11px 0 3px 0;
+							text-decoration:none;
+							}
+
+	.mainContainer ul .footer{
+		width: 100%;
+		float:left;
+		background-color:#539e92;
+		height:300px;
+		text-align:center;
+		margin-top:100px;
+		}
+		.mainContainer ul .footer ul li img{
+			width:10%;
+			height:auto;
+			margin-top:30px;
+			}
+		.mainContainer ul .footer ul li a{
+			font-family: 'Lobster', cursive;
+			font-size:12px;
+			opacity:1.0;
+			color:#fff;
+			text-decoration:none;
+			}
+		.mainContainer ul .footer ul li a:hover{
+			opacity:0.6;
+			}
+	.menuMobile{
+		display:none;
+		}
+	.mobileLogo{
+		display:none;
+		}

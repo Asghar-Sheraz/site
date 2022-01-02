@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+.mainContainer ul .contentCont .content{
+	width:100%;
+	}
+	
+.mainContainer ul .contentCont .content .welcomeText ul .paraOne{
+	padding:0 5%;
+	width:90%
+	}
+
+.mainContainer ul .contentCont .content .donate img{
+	padding: 0 0 0 25%;
+	}
+	@media (max-width: 900px) {		
+	.mainContainer ul .contentCont .content .donate img{
+		padding: 0 0 0 23%;
+		}
+	}	
+	@media (max-width: 800px) {		
+	.mainContainer ul .contentCont .content .donate img{
+		padding: 0 0 0 21%;
+		}
+	}	
+	@media (max-width: 700px) {		
+	.mainContainer ul .contentCont .content .donate img{
+		padding: 0 0 0 15%;
+		}
+	}	
+.mainContainer ul .raceInfo ul .upcomingRaces ul{
+	width:44%;
+	}
+.mainContainer ul .raceInfo ul .pastRaces ul{
+	width:44%;
+	}
+	
+.mainContainer ul .animationCont{
+	margin:-50px 0 0 0;
+	}
+	
+.mainContainer ul .animationCont .animGif{
+	margin:-10px 0 0 0 ;
+	}
+.mainContainer ul .contentCont .content li h1{
+	font-size:61px;
+	}
+.mainContainer ul .menuCont .menu{
+	width:100%;	
+	}	
+.mainContainer ul .menuCont .menu li{
+	padding:18px 3% 0;
+	text-align:center;
+	width:10%;
+	}
+.mainContainer ul .menuCont .menu .GPS{
+	width:12%;
+	}	
+.mainContainer ul .contentCont .content li .contactMe{
+	font-size:50px;
+
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

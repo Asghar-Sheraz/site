@@ -1,0 +1,498 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bodyStyles{
+	margin:0;
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#222;
+}
+.main{
+	background:url(../images/bg.jpg);
+	width:100%;
+	height:auto;
+	float:left;
+	background-color:#FFFFFF;
+	background-repeat:no-repeat;
+		
+	}
+	.bannerContent{
+		height:335px;
+		width:665px;
+		float:left;
+		}
+		.bannerContent img{
+			}
+.fb-like{
+	padding:10px 0 0 185px;
+}
+	.photoContent{
+		position:relative;
+		height:335px;
+		width:305px;
+		float:left;
+		}
+	.slider{
+		margin:49px 0 0 26px	;
+		background:url(../images/countDownBg.png) no-repeat;
+		width:378px;
+		height:165px;
+		padding:35px 0 0 0;
+	}	
+		.slider h2{
+				color:#2d9eac;
+				display:block;
+				padding: 0 0 0 56px;
+				margin:0px;
+				font-size:20px;
+				font-weight:normal;
+		}	
+		.slider h3{
+				color:#00aeff;
+				display:block;
+				padding: 0 0 0 56px;
+				margin:0px;
+				font-size:16px;
+				font-weight:normal;
+		}	
+	.frameContent{
+		background:url(../images/sliderFrame.png);
+		position:absolute;
+		top:84px;
+		left:17px;
+		width:304px;
+		height:214px;
+		z-index:100;
+	}
+
+	.sliderContent{
+		position:relative;
+		width:276px;
+		height:156px;
+		padding:10px 0 0 20px;
+		margin:0px 0 0 15px;
+		z-index:1;
+		}
+	.item1{
+		min-height:408px;
+		height:auto;
+		width:335px;
+		float:left;
+		clear:left;
+		margin-bottom:10px;
+
+		}
+		.item1 h2{
+			color:#C75325;
+			display:block;
+			padding: 0 0 0 38px;
+			margin:0px;
+			font-size:30px;
+			}
+		.item1 div{
+			background:url(../images/bgIce.jpg) 16px -14px;
+			width:100%;
+			height:300px;
+			}
+			.item1 div div{
+				width:301px;
+				min-height:65px;
+				height:auto;
+				background:url(../images/redTik.png) -2px -16px;
+				background-repeat:no-repeat;
+				padding:10px 0 0 35px;
+				}
+				.item1 div div .month{
+					width:auto;
+					color:#C75325;
+					font-size:28px;
+					font-weight:bold;
+					float:left;
+					padding: 7px 5px 0 0;
+					}
+				.item1 div div .date{
+					width:auto;
+					float:left;
+					}
+				.item1 div div .date p{
+					display:block;z
+					padding:0px;
+					margin:0px;
+					color:#C75325;
+					font-size:12px;
+					}
+				.item1 div div .date .p1{
+					font-size:22px;
+					margin: 4px 0 0 0;
+					}
+				.item1 div div .date .p2{
+					margin: -6px 0 0 0;
+					}
+				.item1 div div .desc{
+					float:left;
+					display:block;
+					font-size:14px;
+					padding: 8px 0 0 15px;
+					width:120px;
+					height:auto;
+					}
+
+	.item2{
+		min-height:420px;
+		height:auto;
+		width:335px;
+		float:left;
+		}
+		.item2 h2{
+			color:#da8000;
+			display:block;
+			padding: 0 0 0 38px;
+			margin:0px;
+			font-size:30px;
+			}
+		.item2 div{
+			background:url(../images/bgIce.jpg) 16px -14px;
+			width:100%;
+			height:300px;
+			}
+			.item2 div div{
+				width:301px;
+				min-height:65px;
+				height:auto;
+				background:url(../images/orangeTik.png) -2px -16px;
+				background-repeat:no-repeat;
+				padding:10px 0 0 35px;
+				}
+				.item2 div div .month{
+					width:auto;
+					color:#da8000;
+					font-size:28px;
+					font-weight:bold;
+					float:left;
+					padding: 7px 5px 0 0;
+					}
+				.item2 div div .date{
+					width:auto;
+					float:left;
+					}
+				.item2 div div .date p{
+					display:block;
+					padding:0px;
+					margin:0px;
+					color:#da8000;
+					font-size:12px;
+					}
+				.item2 div div .date .p1{
+					font-size:22px;
+					margin: 4px 0 0 0;
+					}
+				.item2 div div .date .p2{
+					margin: -6px 0 0 0;
+					}
+				.item2 div div .desc{
+					float:left;
+					display:block;
+					font-size:14px;
+					padding: 8px 0 0 15px;
+					width:120px;
+					height:auto;
+					}
+	.item3{
+		min-height:420px;
+		height:auto;
+		width:295px;
+		float:left;
+		}
+		.item3 h2{
+			color:#25c762;
+			display:block;
+			padding: 0 0 0 38px;
+			margin:0px;
+			font-size:30px;
+			}
+		.item3 div{
+			background:url(../images/bgIceGoal.jpg) 16px -14px;
+			width:100%px;
+			height:300px;
+			}
+			.item3 div div{
+				position:relative;
+				width:301px;
+				min-height:65px;
+				height:auto;
+				background:url(../images/neonGreenTik.png) -2px -16px;
+				background-repeat:no-repeat;
+				padding:10px 0 0 35px;
+				}
+				.item3 div div .header{
+					width:auto;
+					color:#25c762;
+					font-size:20px;
+					font-weight:bold;
+					float:left;
+					padding: 7px 5px 0 0;
+					}
+				.item3 div div ul{
+					float:left;
+					display:block;
+					width:100%;
+					margin:15px 0  0  0;
+					}
+					.item3 div div li{
+						list-style:none;
+						margin:0 0 5px -30px;
+						padding:0;
+						background:url(../images/line.png) 0px 5px no-repeat;
+						height:40px;
+						font-size:14px;
+						}
+					.raised{
+						float:left;
+						display:block;
+						padding-left:10px;
+						font-size:24px;
+					}
+
+
+					.item3 div div .thermo{
+						position:absolute;
+						top:50px;
+						right:30px;
+						height:238px;
+						width:34px;
+						padding:0px;
+						background:url(../images/thermo.png);
+						}
+					.item3 div div .thermo .mercury{
+						position:absolute;
+						top:180px;
+						right:11px;
+						min-height:5px;
+						width:9px;
+						background:#25c762;
+						padding:0px 0 10px 0;
+						margin:0px;
+					}
+
+	.item4{
+		min-height:420px;
+		height:auto;
+		width:295px;
+		float:left;
+		margin-left:18px;
+		margin-bottom:10px;
+		}
+		.item4 h2{
+			color:#a8c1c4;
+			display:block;
+			padding: 0 0 0 38px;
+			margin:0px;
+			font-size:30px;
+			}
+		.item4 div{
+			background:url(../images/bgIceGoal.jpg) 16px -14px;
+			width:100%;
+			height:420px;
+			clear:right;
+			
+			}
+			.item4 div div{
+				position:relative;
+				width:301px;
+				min-height:65px;
+				height:auto;
+				background:url(../images/greyTik.png) -2px -16px;
+				background-repeat:no-repeat;
+				padding:10px 0 0 35px;
+				}
+				.item4 div div .header{
+					width:auto;
+					color:#a8c1c4;
+					font-size:20px;
+					font-weight:bold;
+					float:left;
+					padding: 7px 5px 0 0;
+					}
+				 .item4 div div p{
+					line-height:20px;
+					font-size:14px;
+					width:265px;
+				 }
+	.item5{
+		min-height:420px;
+		height:auto;
+		width:295px;
+		float:left;
+		margin-left:18px;
+		margin-bottom:10px;
+		}
+		.item5 h2{
+			color:#2599c7;
+			display:block;
+			padding: 0 0 0 38px;
+			margin:0px;
+			font-size:30px;
+			}
+		.item5 div{
+			background:url(../images/bgIceGoal.jpg) 16px -14px;
+			width:100%px;
+			height:300px;
+			}
+			.item5 div div{
+				position:relative;
+				width:301px;
+				min-height:65px;
+				height:auto;
+				background:url(../images/blueTik.png) -2px -16px;
+				background-repeat:no-repeat;
+				padding:10px 0 0 35px;
+				}
+				.item5 div div .header{
+					width:auto;
+					color:#25c762;
+					font-size:20px;
+					font-weight:bold;
+					float:left;
+					padding: 7px 5px 0 0;
+					}
+				.item5 div div ul {
+					float:left;
+					display:block;
+					width:70%;
+					margin:15px 0  0  0;
+					}
+					.item5 div div ul li {
+							list-style:none;
+							margin:0 0 5px -30px;
+							padding:0;
+							background:url(../images/line.png) 0px 13px no-repeat;
+							height:40px;
+							font-size:14px;
+						}
+						.item5 div div ul li span {
+							float:right;
+							}
+
+a.donate{ 
+	display:block;
+	color:#FFF;
+	font-size:36px;
+	height:66px;
+	width:236px;
+	background:url(../images/donateBtn.png);
+	padding:26px 0 0 0;
+	text-decoration:none;
+	text-align:center;
+	margin: 4px 0 0 15px;
+	float:left;
+	}  
+ a.donate:hover{ 
+	display:block;
+	background:url(../images/donateBtn.png)  0px 88px ;
+	}  
+ a.linker{
+	display:block;
+	float:left;					
+	font-size:14px;
+	color:#1b5f68;
+	text-decoration:none;
+	margin: 26px 0 0 0;
+	}
+  a.linker:hover{ 
+	text-decoration:underline;
+	}  
+
+.menu{
+	float:left;
+	width:100%;
+	height:51px;
+	margin:40px 0 30px 0;
+	background-image:url(../images/menubg.jpg);
+	font-size:20px;
+	}
+	.menuContent{
+		float:left;
+		width:517px;
+
+		}
+		.menuContent ul {
+				display:block;
+				float:left;
+				padding:0;
+				margin:0;
+			}
+			.menuContent ul li{
+				display:block;
+				list-style:none;
+				float:left;
+				width:auto;
+				padding:0 0 0 0;
+				margin:0;
+				margin-left:35px;
+				color:#fff;
+				font-weight:bold;
+				height:38px;
+				}
+			.menuContent ul li a{
+				display:block;
+				float:left;
+				color:#fff;
+				font-weight:bold;
+				height:50px;
+				padding:10px 0 0 0;
+				text-decoration:none;
+				width:104px;
+				text-align:center;
+				}
+			.menuContent ul li a.stepOne:hover{
+				color:#357e8d;
+ 				background:url(../images/stepHover.png) 0px -5px;
+ 				}
+			.menuContent ul li a.stepTwo:hover{
+ 				background:url(../images/stepHover.png) -120px -5px;
+				color:#357e8d;
+ 				}
+			.menuContent ul .activeOne{
+				display:block;
+				float:left;
+				color:#fff;
+				font-weight:bold;
+				height:50px;
+				padding:10px 0 0 0;
+				text-decoration:none;
+				width:104px;
+				text-align:center;
+				color:#357e8d;
+ 				background:url(../images/stepHover.png) 0 -5px;
+				cursor:pointer;
+ 				}
+			.menuContent ul .activeTwo{
+				display:block;
+				float:left;
+				color:#fff;
+				font-weight:bold;
+				height:50px;
+				padding:10px 0 0 0;
+				text-decoration:none;
+				width:104px;
+				text-align:center;
+				color:#357e8d;
+ 				background:url(../images/stepHover.png) -120px -5px;
+				cursor:pointer;
+ 				}
+	.menuedge{
+		float:left;
+		background-image:url(../images/menuEdge.png);
+		width:101px;
+		height:51px;
+		margin: 0 0 10px 0;
+		}
+	.comingSoon {
+		position:relative;
+		height:auto;
+		width:100%
+		float:left;
+		clear:both;
+		text-align:center;
+		width:100%;s
+	
+	}

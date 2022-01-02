@@ -1,0 +1,23 @@
+.main-Holder{position:relative; float:left; width:313px; height:255px; background-image:url(../images/photoBg.png); margin: 25px 25px 0 0;}
+.bgOverLay{ position: absolute; top:0; left:0; z-index:100; height:72px; width:313px; background:url(../images/photosHeadBg.png);}
+#tut-info {width: 810px; margin: 0 0 20px 0;}
+#tut-info a {float: left; display: block; background: #fff; font-size: 20px; padding: 20px 20px; font-weight: bold; margin: 0 15px 0 0;}
+#tut-info a:hover {background: #ff0084;}            
+#loader {margin: 20px 0 40px 350px;}
+.image-container {z-index:1; height: 160px; width: 240px; position: relative; float: left; margin: 0;	 overflow: hidden; text-align:center;}
+.image-info { float:left; width:100%; height:110px; background:url(../images/photoTextBg.png) no-repeat; padding:10px 0  0  5px; }
+.image-info-active {height: 180px; width: 240px; background: rgba(255,255,255,.85);}
+.bottom {padding: 5px;}
+.bottom p {margin: 0 0 5px 0; }
+p.top {width: 240px; padding: 0 0 5px 0; margin: 0;}
+span.author {font-size: 10px;}
+.infoTitle {font-weight: bold; text-trasnform: uppercase;}
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clearfix {display:inline-block;}
+.clearfix {display:block;}
+.forceFix{ margin:23px 0 0 14px;}
+a.title{ color:#0096d5; font-size:14px; font-family: 'Source Sans Pro', sans-serif; text-decoration:none;}
+a.title:hover{ color:#0096d5; font-size:14px; font-family: 'Source Sans Pro', sans-serif; text-decoration:underline;}
+a.author{ color:#666; font-size:12px; font-family: 'Source Sans Pro', sans-serif; text-decoration:none;}
+a.author:hover{ color:#666; font-size:12px; font-family: 'Source Sans Pro', sans-serif; text-decoration:underline;}
+author{ color:#666; font-size:12px; font-family: 'Source Sans Pro', sans-serif; text-decoration:none;}
