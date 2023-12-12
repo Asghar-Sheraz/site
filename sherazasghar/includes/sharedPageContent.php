@@ -50,7 +50,7 @@ if  ($pageID=="tnmt"){
 		$bannerBtnBorder = "#000";
 }
 
-if (($pageID=="projects") || ($pageID=="about") || ($pageID=="videos") || ($pageID=="artwork") || ($pageID=="contact") || ($pageID=="lab")){
+if (($pageID=="projects") || ($pageID=="about") || ($pageID=="videos") || ($pageID=="artwork") || ($pageID=="contact") || ($pageID=="lab") || ($pageID=="unity")){
 
 	$color = "#000";
 	$colorLight = "#333";
@@ -79,6 +79,7 @@ if (($langID == '') || ($langID == 'en')){
 
 		$about ="ABOUT";
 		$lab ="LAB";
+		$unity ="UNITY";
 		$contact ="CONTACT";
 		$largeView ="LARGE VIEW";
 		$download ="DOWNLOAD";
@@ -113,6 +114,7 @@ if ($langID == 'de'){
 	
 		$about ="ÜBER";
 		$lab ="LABOR";
+		$unity ="UNITY";
 		$contact ="KONTAKT";
 		$largeView ="GRŐßERES BILD";
 		$download ="DOWNLOAD";
@@ -148,6 +150,7 @@ if ($langID == 'fr'){
 	
 		$about ="À PROPOS";
 		$lab ="LABORATOIRE";
+		$unity ="UNITY";
 		$contact ="CONTACT";
 		$largeView ="GRANDE VUE";
 		$download ="TÉLÉCHARGER";
@@ -182,6 +185,7 @@ if ($langID == 'es'){
 	
 		$about ="CERCA DE MI";
 		$lab ="LABORATORIO";
+		$unity ="UNITY";
 		$contact ="CONTACTO";
 		$largeView ="GRAN VISTA";
 		$download ="DESCARGAR";
@@ -216,6 +220,7 @@ if ($langID == 'ar'){
 	
 		$about ="حول";
 		$lab ="مختبر";
+		$unity ="UNITY";
 		$contact ="الاتصال";
 		$largeView ="تكبير";
 		$download ="تحميل";
@@ -250,6 +255,7 @@ if ($langID == 'jp'){
 	
 		$about ="について";
 		$lab ="ラボ";
+		$unity ="UNITY";
 		$contact ="コンタクト";
 		$largeView ="大きなビュー";
 		$download ="ダウンロード";
@@ -316,7 +322,7 @@ if(($langID=="")||($langID=="en")||($langID=="de")||($langID=="fr")||($langID=="
 	$arnold = "Arnold";
 	$vray = "V Ray";
 	$arduino = "Arduino";
-	$unity = "Unity";
+	$unity = "UNITY";
 	$fumefx = "FumeFX";
 	$c4d = "Cinema 4D ";
 	$css = "CSS";
