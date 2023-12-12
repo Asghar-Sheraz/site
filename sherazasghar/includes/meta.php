@@ -1,6 +1,6 @@
 <?
 	$metaKeywords = "sheraz asghar, 3d artist, unity 3d, 3d studio max, Maya, occulus vr, vue Xtream digital designer";
-	$metaContent = "Sheraz Asghar Digital artist living in Montreal, Canada";
+	$metaContent = "I have over 15 years of experience as a 3d Generalist. Currently, I am working as a Technical Artist at Unity. Before this, I worked in Medical simulations field, creating data for real-time heart surgeries. Also worked in kids toy/entertainment industry where I created short animations for marketing with Universal Studios, 343 industries, Bungie, Nickelodeon. Also worked as a developer for Augmented/virtual/mixed reality APP/solutions in a R&D capacity. I thrive in fast-paced innovative environment and always looking to apply my technical expertise along with my creative skills. Beyond that I am a machinist and a Ultra athlete.";
 
 if ($pageID == 'halo'){
 	$metaTitle = "Sheraz Asghar - Project Spartan";
