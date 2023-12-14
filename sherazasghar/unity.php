@@ -20,6 +20,7 @@ include_once "includes/meta.php";
 <? include 'includes/colorstyle.php' ?>
 </head>
 <body>
+	
 <? include 'includes/header.php'?>
 <? include 'includes/loginForm.php'?>
 <div  class="mainContainer" style="display:<? echo $content ?>;">
